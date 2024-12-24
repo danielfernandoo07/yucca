@@ -1,0 +1,11 @@
+version: "3.0"
+stories:
+- story: user asks about faculties
+  steps:
+  - intent: ask_about_faculties
+  - action: action_fetch_knowledge_base
+
+- story: user asks about registration
+  steps:
+  - intent: ask_registration
+  - action: action_fetch_knowledge_base

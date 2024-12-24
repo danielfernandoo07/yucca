@@ -1,0 +1,37 @@
+Instalasi:
+1. Client (Frontend)
+    a. cd Client
+    b. npm install
+    c. npm install axios (STT dan TTS)
+
+2. Rasa
+    a. cd Rasa
+    b. install python 3.8.10 (ngikut punya Daniel)
+    c. buat venv baru (python -m venv namavenv)
+    d. namavenv\Scripts\activate
+    e. pip install Rasa
+
+3. Server (Backend)
+    a. cd Server
+    b. npm install express body-parser cors
+
+Cara menggunakan Chatbot:
+1. Aktivasi Rasa Ai
+    a. Buka terminal
+    b. cd Rasa
+    c. ketikkan namavenv\Scripts\activate
+    d. ketikkan rasa run --enable-api
+    e. Buka terminal baru
+    f. cd Rasa
+    g. ketikkan namavenv\Scripts\activate
+    h. ketikkan rasa run actions
+
+2. Aktivasi Backend
+    a. buka terminal baru
+    b. cd Server
+    c. ketikkan node index.js
+
+3. Aktivasi Frontend
+    a. buka terminal baru
+    b. cd Client
+    c. ketikkan npm start

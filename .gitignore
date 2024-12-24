@@ -1,0 +1,15 @@
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# IDE configuration files
+.vscode/
+.idea/
+
+# General logs
+logs/
+*.log
+
+# Node.js and Python cache
+node_modules/
+__pycache__/

@@ -1,0 +1,711 @@
+{
+    "universitas": {
+        "nama": "Universitas Ciputra",
+        "lokasi": "CitraLand CBD Boulevard, Made, Kec. Sambikerep, Surabaya, Jawa Timur 60219",
+        "website": "https://www.ciputra.ac.id/",
+        "contact": {
+            "phone": "082 234 941 824",
+            "facebook": "Universitas Ciputra",
+            "youtube": "Universitas Ciputra",
+            "instagram": "universitasciputra",
+            "tiktok": "universitasciputra"
+        }
+    },
+    "fakultas": [
+        {
+            "kode": "SBM",
+            "nama_inggris": "School of Business Management",
+            "nama": "Fakultas Bisnis dan Manajemen"
+        },
+        {
+            "kode": "SCI",
+            "nama_inggris": "School of Creative Industry",
+            "nama": "Fakultas Industri Kreatif"
+        },
+        {
+            "kode": "SoT",
+            "nama_inggris": "School of Tourism",
+            "nama": "Fakultas Pariwisata"
+        },
+        {
+            "kode": "SIFT",
+            "nama_inggris": "School of Information Technology",
+            "nama": "Fakultas Teknologi Informasi"
+        },
+        {
+            "kode": "SoM",
+            "nama_inggris": "School of Medicine",
+            "nama": "Fakultas Kedokteran"
+        },
+        {
+            "kode": "SDM",
+            "nama_inggris": "School of Dental Medicine",
+            "nama": "Fakultas Kedokteran Gigi"
+        },
+        {
+            "kode": "SoP",
+            "nama_inggris": "School of Psychology",
+            "nama": "Fakultas Psikolgi"
+        },
+        {
+            "kode": "SCM",
+            "nama_inggris": "School of Communication and Media Business",
+            "nama": "Fakultas Ilmu Komunikasi & Media Bisnis"
+        }
+    ],
+    "program_studi": [
+        {
+            "kode": "MED-RC",
+            "nama": "Kedokteran",
+            "kode_fakultas": "SoM",
+            "persyaratan": [
+                {
+                    "jenis": "mata_pelajaran",
+                    "detail": "SMA IPA atau mengambil mata pelajaran biologi/kimia dan matematika/fisika"
+                },
+                {
+                    "jenis": "sertifikat",
+                    "detail": "Sertifikat TOEFL/IELTS yang masih berlaku"
+                },
+                {
+                    "jenis": "tambahan setelah diterima",
+                    "detail": "Surat keterangan tidak buta warna, surat bebas NAPZA, dan surat kesehatan"
+                }
+            ],
+            "seleksi_khusus": [
+                {
+                    "jenis": "Tes Potensi Akademik",
+                    "contoh_soal": "Tes Potensi Akademik meliputi 4 Bagian. Tes Verbal, Tes Angka, Tes Logika, dan Tes Spasial."
+                },
+                {
+                    "jenis": "IPA Terpadu, Psikotes & Wawancara",
+                    "contoh_soal": "Tes IPA meliputi materi biologi tentang bakteri, jamur, cacing (kelas 11) serta sel, jaringan, dan sistem organ manusia (kelas XI), fisika tentang cermin dan alat optik (kelas 10), kimia tentang persamaan reaksi, perhitungan kimia (kelas X) dan asam basa (kelas 11), serta matematika tentang statistika (kelas 11)."
+                }
+            ],
+            "biaya": {
+                "dpp": "Rp 340.000.000",
+                "spp_kerjasama": "Rp 37.500.000",
+                "spp_reguler": "Rp 39.500.000",
+                "sks": "Rp 600.000",
+                "ori": "Rp 3.000.000",
+                "total": "Rp 628.000.000"
+            }
+        },
+        {
+            "kode": "MED-IC",
+            "nama": "Kedokteran (English)",
+            "kode_fakultas": "SoM",
+            "persyaratan": [
+                {
+                    "jenis": "mata_pelajaran",
+                    "detail": "SMA IPA atau mengambil mata pelajaran biologi, kimia dan matematika/fisika"
+                },
+                {
+                    "jenis": "sertifikat",
+                    "detail": "Sertifikat TOEFL/IELTS yang masih berlaku"
+                },
+                {
+                    "jenis": "tambahan setelah diterima",
+                    "detail": "Surat keterangan tidak buta warna, surat bebas NAPZA, dan surat kesehatan"
+                }
+            ],
+            "seleksi_khusus": [
+                {
+                    "jenis": "Tes Potensi Akademik",
+                    "contoh_soal": "Tes Potensi Akademik meliputi 4 Bagian. Tes Verbal, Tes Angka, Tes Logika, dan Tes Spasial."
+                },
+                {
+                    "jenis": "Test Equivalent to IBDP Science-HL or Cambridge A Level",
+                    "contoh_soal": "(tidak ada)"
+                }
+            ],
+            "biaya": {
+                "dpp": "Rp 340.000.000",
+                "spp_kerjasama": "Rp 40.000.000",
+                "spp_reguler": "Rp 42.000.000",
+                "sks": "Rp 600.000",
+                "ori": "Rp 3.000.000",
+                "total": "Rp 648.000.000"
+            }
+        },
+        {
+            "kode": "DEM",
+            "nama": "Kedokteran Gigi (Dental Medicine)",
+            "kode_fakultas": "SDM",
+            "persyaratan": [
+                {
+                    "jenis": "mata_pelajaran",
+                    "detail": "SMA IPA atau mengambil mata pelajaran biologi/kimia dan matematika/fisika"
+                },
+                {
+                    "jenis": "sertifikat",
+                    "detail": "Sertifikat TOEFL/IELTS yang masih berlaku"
+                },
+                {
+                    "jenis": "tambahan setelah diterima",
+                    "detail": "Surat keterangan tidak buta warna, surat bebas NAPZA, dan surat kesehatan"
+                }
+            ],
+            "seleksi_khusus": [
+                {
+                    "jenis": "Tes Potensi Akademik",
+                    "contoh_soal": "Tes Potensi Akademik meliputi 4 Bagian. Tes Verbal, Tes Angka, Tes Logika, dan Tes Spasial."
+                },
+                {
+                    "jenis": "IPA Terpadu, Psikotes & Wawancara",
+                    "contoh_soal": "Tes IPA meliputi materi biologi tentang bakteri, jamur, cacing (kelas 11) serta sel, jaringan, dan sistem organ manusia (kelas XI), fisika tentang cermin dan alat optik (kelas 10), kimia tentang persamaan reaksi, perhitungan kimia (kelas X) dan asam basa (kelas 11), serta matematika tentang statistika (kelas 11)."
+                }
+            ],
+            "biaya": {
+                "dpp": "Rp 250.000.000",
+                "spp_kerjasama": "Rp 30.000.000",
+                "spp_reguler": "Rp 32.000.000",
+                "sks": "Rp 550.000",
+                "ori": "Rp 3.000.000",
+                "total": "Rp 478.000.000"
+            }
+        },
+        {
+            "kode": "IBM-RC",
+            "nama": "Manajemen Bisnis Internasional - Kelas Reguler",
+            "kode_fakultas": "SBM",
+            "persyaratan": [
+                {
+                    "jenis": "sertifikat",
+                    "detail": "Sertifikat TOEFL/IELTS yang masih berlaku"
+                }
+            ],
+            "biaya": {
+                "dpp": "Rp 37.500.000",
+                "spp_kerjasama": "Rp 16.000.000",
+                "spp_reguler": "Rp 18.000.000",
+                "sks": "Rp 700.000",
+                "ori": "Rp 3.000.000",
+                "total": "Rp 254.300.000"
+            }
+        },
+        {
+            "kode": "IBM-IC",
+            "nama": "Manajemen Bisnis Internasional - Kelas Internasional",
+            "kode_fakultas": "SBM",
+            "persyaratan": [
+                {
+                    "jenis": "sertifikat",
+                    "detail": "Sertifikat TOEFL/IELTS yang masih berlaku"
+                }
+            ],
+            "biaya": {
+                "dpp": "Rp 40.000.000",
+                "spp_kerjasama": "Rp 19.500.000",
+                "spp_reguler": "Rp 21.500.000",
+                "sks": "Rp 800.000",
+                "ori": "Rp 3.000.000",
+                "total": "Rp 299.200.000"
+            }
+        },
+        {
+            "kode": "ACC",
+            "nama": "Akuntansi",
+            "kode_fakultas": "SBM",
+            "biaya": {
+                "dpp": "Rp 35.000.000",
+                "spp_kerjasama": "Rp 10.000.000",
+                "spp_reguler": "Rp 12.000.000",
+                "sks": "Rp 550.000",
+                "ori": "Rp 3.000.000",
+                "total": "Rp 182.200.000"
+            }
+        },
+        {
+            "kode": "VCD",
+            "nama": "Desain Komunikasi Visual",
+            "kode_fakultas": "SCI",
+            "persyaratan": [
+                {
+                    "jenis": "surat keterangan",
+                    "detail": "Surat keterangan tidak buta warna"
+                }
+            ],
+            "seleksi_khusus": [
+                {
+                    "jenis": "Tes Gambar",
+                    "contoh_soal": "Anda berkunjung ke sebuah cafe yang nyaman, bernama `Caffeine Rush`. Cafe itu banyak dikunjungi oleh anak muda (khususnya pelajar SMA seusia anda). Cafe itu menggunakan jenis cangkir seperti di samping ini. Pemilik 1  Cafe meminta anda untuk mendesain tampilan grafis pada cangkir agar terlihat lebih menarik dan mencerminkan `jiwa Caffeine Rush`. Gunakan pensil anda untuk menambahkan elemen grafis pada cangkir tersebut dan menjadikannya lebih menarik, waktu anda 30 menit."
+                }
+            ],
+            "biaya": {
+                "dpp": "Rp 35.000.000",
+                "spp_kerjasama": "Rp 11.000.000",
+                "spp_reguler": "Rp 13.000.000",
+                "sks": "Rp 700.000",
+                "ori": "Rp 3.000.000",
+                "total": "Rp 211.800.000"
+            }
+        },
+        {
+            "kode": "INA",
+            "nama": "Arsitektur Interior",
+            "kode_fakultas": "SCI",
+            "persyaratan": [
+                {
+                    "jenis": "surat keterangan",
+                    "detail": "Surat keterangan tidak buta warna"
+                }
+            ],
+            "seleksi_khusus": [
+                {
+                    "jenis": "Tes Gambar",
+                    "contoh_soal": "Waktu: 30 menit. Bayangkan Anda adalah sebuah topeng yang terpasang tepat ditengah salah satu dinding sebuah ruang berukuran kira-kira 3x3 meter, tinggi kira-kira 3 meter, yang bertempat di pinggir pantai. Pada dinding di hadapan Anda, pada ketinggian 1,5 meter dari lantai, ada sebuah jendela yang luasnya = 0,5 luas dinding, menghadap 1  ke arah laut. Pada dinding di sisi kiri Anda ada sebuah pintu sebagai jalan masuk keluar ruang. Dinding di sisi kanan Anda, terbuat dari papan kayu. Lantai terbuat dari batu alam. Ditengah ruang ada sebuah bak berendam berdiameter 1 meter dan tingginya 1/5 tinggi ruang. Disudut kiri atas langit-langit dekat jendela, sebuah lampu gantung berbentuk kerucut, menyala menerangi ruang. Disudut kanan lantai dekat jendela, ada sebuah bak tanaman berpenampang 1/4 lingkaran. Sebuah bola basket kotor, tertinggal di bak berendam. Kini, Anda diminta menggambar ruang dalam cerita diatas, agar orang yang melihat gambar Anda mampu membayangkan suasana persis dengan yang Anda 2  lihat."
+                }
+            ],
+            "biaya": {
+                "dpp": "Rp 35.000.000",
+                "spp_kerjasama": "Rp 11.000.000",
+                "spp_reguler": "Rp 13.000.000",
+                "sks": "Rp 750.000",
+                "ori": "Rp 3.000.000",
+                "total": "Rp 219.000.000"
+            }
+        },
+        {
+            "kode": "ARS",
+            "nama": "Arsitektur & Properti",
+            "kode_fakultas": "SCI",
+            "persyaratan": [
+                {
+                    "jenis": "surat keterangan",
+                    "detail": "Surat keterangan tidak buta warna"
+                }
+            ],
+            "seleksi_khusus": [
+                {
+                    "jenis": "Tes Gambar",
+                    "contoh_soal": "Waktu: 30 Menit. Di sebuah taman di kawasan hunian modern, terdapat sebuah sculpture yang terletak di sudut jalan utama. Batas lahan di sebelah kiri adalah bangunan club house. Batas lahan di sebelah kanan adalah rumah2 warga. Di seberang taman tersebut terdapat sebuah danau. Sculpture tersebut terdiri dari bentuk-bentuk geometris balok, prisma segitiga, dan 1/2 kerucut. Proporsi ukuran dari ketiga bentuk geometris tersebut ditentukan sebagai berikut: 1.Perbandingan p x l x t balok = 1:1:3   2. Tinggi prisma segitiga sama dengan 1/2 tinggi balok 3. Alas prisma segitiga dan alas balok, memiliki sisi yang sama panjangnya 4. Tinggi kerucut tiga kali tinggi balok 5. Diameter alas kerucut sama dengan tiga kali panjang sisi pendek balok. Anda diminta menggambar komposisi sculpture dan suasana di sekitarnya. Anda bebas menentukan komposisi peletakan masing-masing bentuk geometri tersebut. "
+                }
+            ],
+            "biaya": {
+                "dpp": "Rp 35.000.000",
+                "spp_kerjasama": "Rp 11.000.000",
+                "spp_reguler": "Rp 13.000.000",
+                "sks": "Rp 750.000",
+                "ori": "Rp 3.000.000",
+                "total": "Rp 219.000.000"
+            }
+        },
+        {
+            "kode": "FDB",
+            "nama": "Desain Fashion & Bisnis",
+            "kode_fakultas": "SCI",
+            "persyaratan": [
+                {
+                    "jenis": "surat keterangan",
+                    "detail": "Surat keterangan tidak buta warna"
+                }
+            ],
+            "seleksi_khusus": [
+                {
+                    "jenis": "Tes Gambar",
+                    "contoh_soal": "Lakukan desain pakaian dengan menggunakan template figur tubuh ini, pakaian dapat berupa pakaian kasual, semi formal atau formal. Gunakan pensil mekanik 0,5 mm atau pensil kayu HB untuk menelusuri template pada kertas A4 bersih yang tersedia, aplikasikan desain pakaian Anda pada figur ini dengan arsiran hitam putih menggunakan pensil kayu 2B atau pensil warna. Waktu yang tersedia adalah 30 menit."
+                }
+            ],
+            "biaya": {
+                "dpp": "Rp 40.000.000",
+                "spp_kerjasama": "Rp 16.000.000",
+                "spp_reguler": "Rp 18.000.000",
+                "sks": "Rp 750.000",
+                "ori": "Rp 3.000.000",
+                "total": "Rp 264.000.000"
+            }
+        },
+        {
+            "kode": "HTEB",
+            "nama": "Bisnis Perhotelan, Pariwisata & Event",
+            "kode_fakultas": "SoT",
+            "biaya": {
+                "dpp": "Rp 37.500.000",
+                "spp_kerjasama": "Rp 16.000.000",
+                "spp_reguler": "Rp 18.000.000",
+                "sks": "Rp 700.000",
+                "ori": "Rp 3.000.000",
+                "total": "Rp 199.900.000"
+            }
+        },
+        {
+            "kode": "CB",
+            "nama": "Bisnis Kuliner",
+            "kode_fakultas": "SoT",
+            "biaya": {
+                "dpp": "Rp 37.500.000",
+                "spp_kerjasama": "Rp 19.500.000",
+                "spp_reguler": "Rp 21.500.000",
+                "sks": "Rp 750.000",
+                "ori": "Rp 3.000.000",
+                "total": "Rp 289.500.000"
+            }
+        },
+        {
+            "kode": "FTP",
+            "nama": "Program Teknologi Pangan",
+            "kode_fakultas": "SoT",
+            "persyaratan": [
+                {
+                    "jenis": "mata_pelajaran",
+                    "detail": "Mengambil mata pelajaran kimia"
+                },
+                {
+                    "jenis": "surat_keterangan",
+                    "detail": "Surat keterangan tidak buta warna"
+                }
+            ],
+            "seleksi_khusus": [
+                {
+                    "jenis": "Tes Kemampuan Dasar & IPA Terpadu",
+                    "contoh_soal": "Materi tes meliputi biologi (bakteri, jamur, sel, bioteknologi, fermentasi, sistem pencernaan), fisika (suhu, kalor, termodinamika), kimia (laju reaksi, larutan, stoikiometri, redoks), matematika (logika, peluang, trigonometri, vektor, sistem persamaan), dan bahasa Inggris (reading comprehension, structure, written expression)."
+                }
+            ],
+            "biaya": {
+                "dpp": "Rp 35.000.000",
+                "spp_kerjasama": "Rp 10.000.000",
+                "spp_reguler": "Rp 12.000.000",
+                "sks": "Rp 550.000",
+                "ori": "Rp 3.000.000",
+                "total": "Rp 182.200.000"
+            }
+        },
+        {
+            "kode": "IMT-AI",
+            "nama": "Informatika - Kecerdasan Buatan",
+            "kode_fakultas": "SIFT",
+            "persyaratan": [
+                {
+                    "jenis": "mata_pelajaran",
+                    "detail": "SMA IPA/SMK IT atau mengambil mata pelajaran matematika"
+                }
+            ],
+            "seleksi_khusus": [
+                {
+                    "jenis": "Tes Logika Matematika Dasar (IMT)",
+                    "contoh_soal": "Tes Logika IMT kemampuan kita dalam memahami pola, melakukan perhitungan sederhana, dan menganalisis informasi visual yang diberikan."
+                }
+            ],
+            "biaya": {
+                "dpp": "Rp 35.000.000",
+                "spp_kerjasama": "Rp 11.000.000",
+                "spp_reguler": "Rp 13.000.000",
+                "sks": "Rp 600.000",
+                "ori": "Rp 3.000.000",
+                "total": "Rp 197.400.000"
+            }
+        },
+        {
+            "kode": "IMT-FSD",
+            "nama": "Informatika - Pengembangan Aplikasi Full Stack",
+            "kode_fakultas": "SIFT",
+            "persyaratan": [
+                {
+                    "jenis": "mata_pelajaran",
+                    "detail": "SMA IPA/SMK IT atau mengambil mata pelajaran matematika"
+                }
+            ],
+            "seleksi_khusus": [
+                {
+                    "jenis": "Tes Logika Matematika Dasar (IMT)",
+                    "contoh_soal": "Tes Logika IMT kemampuan kita dalam memahami pola, melakukan perhitungan sederhana, dan menganalisis informasi visual yang diberikan."
+                }
+            ],
+            "biaya": {
+                "dpp": "Rp 35.000.000",
+                "spp_kerjasama": "Rp 11.000.000",
+                "spp_reguler": "Rp 13.000.000",
+                "sks": "Rp 600.000",
+                "ori": "Rp 3.000.000",
+                "total": "Rp 197.400.000"
+            }
+        },
+        {
+            "kode": "ISB-DS",
+            "nama": "Sistem Informasi Bisnis - Ilmu Data",
+            "kode_fakultas": "SIFT",
+            "seleksi_khusus": [
+                {
+                    "jenis": "Tes Logika Matematika Dasar (ISB)",
+                    "contoh_soal": "Kedua soal ini menguji kemampuan peserta dalam mengubah masalah sehari-hari menjadi model matematika, menerapkan konsep matematika yang relevan, melakukan perhitungan, dan akhirnya menemukan solusi yang tepat."
+                }
+            ],
+            "biaya": {
+                "dpp": "Rp 35.000.000",
+                "spp_kerjasama": "Rp 11.000.000",
+                "spp_reguler": "Rp 13.000.000",
+                "sks": "Rp 600.000",
+                "ori": "Rp 3.000.000",
+                "total": "Rp 197.400.000"
+            }
+        },
+        {
+            "kode": "ISB-ES",
+            "nama": "Sistem Informasi Bisnis - Sistem Perusahaan",
+            "kode_fakultas": "SIFT",
+            "seleksi_khusus": [
+                {
+                    "jenis": "Tes Logika Matematika Dasar (ISB)",
+                    "contoh_soal": "Kedua soal ini menguji kemampuan peserta dalam mengubah masalah sehari-hari menjadi model matematika, menerapkan konsep matematika yang relevan, melakukan perhitungan, dan akhirnya menemukan solusi yang tepat."
+                }
+            ],
+            "biaya": {
+                "dpp": "Rp 35.000.000",
+                "spp_kerjasama": "Rp 11.000.000",
+                "spp_reguler": "Rp 13.000.000",
+                "sks": "Rp 600.000",
+                "ori": "Rp 3.000.000",
+                "total": "Rp 197.400.000"
+            }
+        },
+        {
+            "kode": "PSY",
+            "nama": "Psikologi",
+            "kode_fakultas": "SoP",
+            "biaya": {
+                "dpp": "Rp 35.000.000",
+                "spp_kerjasama": "Rp 10.000.000",
+                "spp_reguler": "Rp 12.000.000",
+                "sks": "Rp 550.000",
+                "ori": "Rp 3.000.000",
+                "total": "Rp 182.200.000"
+            }
+        },
+        {
+            "kode": "DPR",
+            "nama": "Humas Digital",
+            "kode_fakultas": "SCM",
+            "biaya": {
+                "dpp": "Rp 35.000.000",
+                "spp_kerjasama": "Rp 10.000.000",
+                "spp_reguler": "Rp 12.000.000",
+                "sks": "Rp 550.000",
+                "ori": "Rp 3.000.000",
+                "total": "Rp 182.200.000"
+            }
+        },
+        {
+            "kode": "CDC",
+            "nama": "Sinematografi & Konten Digital",
+            "kode_fakultas": "SCM",
+            "biaya": {
+                "dpp": "Rp 35.000.000",
+                "spp_kerjasama": "Rp 10.000.000",
+                "spp_reguler": "Rp 12.000.000",
+                "sks": "Rp 550.000",
+                "ori": "Rp 3.000.000",
+                "total": "Rp 190.200.000"
+            }
+        }
+    ],
+    "pendaftaran": [
+        {
+            "informasi_pendaftaran": [
+                {
+                    "informasi": "Calon mahasiswa wajib mengikuti program pemantapan pilihan jurusan (seleksi masuk)."
+                },
+                {
+                    "informasi": "Beli voucher pendaftaran melalui salah satu opsi berikut:\n1. Tokopedia: cari keyword 'belajar' dan pilih logo Universitas Ciputra\n2. Download aplikasi UC Enrollment di Play Store/Apps Store\n3. Kunjungi website Universitas Ciputra: enrollment.ciputra.ac.id\n4. Melalui Guru BK Sekolah Kerjasama."
+                },
+                {
+                    "informasi": "Pendaftaran akan ditutup apabila kuota program telah terpenuhi."
+                },
+                {
+                    "informasi": "Siapkan nilai rapor kelas 11 semester 1-2."
+                },
+                {
+                    "informasi": "Voucher pendaftaran Universitas Ciputra hanya berlaku untuk pendaftaran di Universitas Ciputra Surabaya."
+                },
+                {
+                    "informasi": "Jika mengikuti ujian ijazah Paket C, homeschooling, PKBM, atau Pendidikan Non Formal, wajib menandatangani surat pernyataan yang dapat diunduh saat pendaftaran dan menyerahkan ijazah Paket C paling lambat 31 Agustus 2025."
+                }
+            ]
+        },
+        {
+            "tata_cara_pendaftaran": [
+                {
+                    "urutan": 1,
+                    "deskripsi": "Lakukan pembelian voucher pendaftaran"
+                },
+                {
+                    "urutan": 2,
+                    "deskripsi": "Isi formulir pendaftaran dengan data yang akurat dan sesuai petunjuk. Jika terdapat ketidaksesuaian dalam pengisian berkas, pendaftaran dapat dibatalkan secara otomatis. Simpan nomor formulir & password Anda."
+                },
+                {
+                    "urutan": 3,
+                    "deskripsi": "Ikuti seleksi masuk PMB sesuai dengan program yang dipilih dan jadwal yang dipilih saat pendaftaran. Pastikan mengikuti semua tahapan seleksi."
+                },
+                {
+                    "urutan": 4,
+                    "deskripsi": "Hasil tes seleksi akan diumumkan melalui email atau dapat dilihat dengan login ke website enrollment.ciputra.ac.id."
+                }
+            ]
+        },
+        {
+            "jalur_pendaftaran": [
+                {
+                    "nama": "Jalur Reguler",
+                    "deskripsi": "Diperuntukkan bagi calon mahasiswa yang berasal dari sekolah kerjasama dengan nilai rata-rata rapor kelas XI < 72, atau sekolah non-kerjasama.",
+                    "seleksi_proses": [
+                        "TPA (Tes Potensial Akademik)",
+                        "Studi Kasus",
+                        "Wawancara / Diskusi Kelompok",
+                        "Seleksi Khusus"
+                    ]
+                },
+                {
+                    "nama": "Jalur Sekolah Kerjasama",
+                    "deskripsi": "Diperuntukkan bagi siswa kelas XI dan alumni sekolah kerjasama dengan nilai rata-rata rapor kelas XI ≥ 72.",
+                    "seleksi_proses": [
+                        "Studi Kasus",
+                        "Wawancara / Diskusi Kelompok",
+                        "Seleksi Khusus"
+                    ]
+                },
+                {
+                    "nama": "Jalur Undangan Prestasi",
+                    "deskripsi": "Tersedia untuk sekolah kerjasama terpilih. Informasi lebih lanjut dapat diperoleh dengan menghubungi enrollment.ciputra.ac.id.",
+                    "seleksi_proses": [
+                        "Studi Kasus",
+                        "Wawancara / Diskusi Kelompok",
+                        "Seleksi Khusus"
+                    ]
+                }
+            ]
+        },
+        {
+            "hasil_pendaftaran": [
+                {
+                    "status": "Diterima",
+                    "deskripsi": "Melakukan pembayaran sesuai dengan jadwal dan melakukan registrasi ulang secara online di ciputra.ac.id/registrasi-ulang/. Keterlambatan registrasi ulang dapat mengakibatkan pembatalan pendaftaran secara otomatis."
+                },
+                {
+                    "status": "Ditolak",
+                    "deskripsi": "Dapat melakukan pendaftaran ulang (maksimal 2 kali di jurusan yang sama)."
+                }
+            ]
+        },
+        {
+            "pergantian_program_studi_untuk_calon_mahasiswa": {
+                "deskripsi": "Calon mahasiswa yang telah dinyatakan diterima sebagai mahasiswa Universitas Ciputra pada program studi tertentu dan berkeinginan untuk pindah program studi dapat mengajukan dengan memenuhi syarat",
+                "syarat": [
+                    "Program studi yang dituju telah dipilih pada saat mengisi formulir pendaftaran, jika tidak maka calon mahasiswa wajib untuk membeli formulir pendaftaran baru dan mengikuti persyaratan yang berlaku",
+                    "Mengisi formulir pengajuan permohonan pergantian program studi yang dapat di download pada enrollment.ciputra.ac.id dan telah ditandatangani oleh orang tua siswa",
+                    "Calon mahasiswa Jalur Undangan Prestasi tidak dapat mengajukan pergantian program studi setelah masa Jalur Undangan Prestasi (JUP) selesai",
+                    "Pergantian program studi hanya bisa dilakukan 1 kali sebelum melakukan registrasi ulang dan Universitas Ciputra berhak untuk tidak mengijinkan pergantian program studi",
+                    "Calon mahasiswa yang sudah melakukan registrasi ulang tidak dapat mengajukan pergantian program studi"
+                ]
+            }
+        },
+        {
+            "fasilitas_cashback": {
+                "deskripsi": "Yayasan Universitas Ciputra menyediakan fasilitas 'Cash Back' berupa keringanan DPP sebesar 10% kepada pemilik produk/properti grup Ciputra.",
+                "syarat_dan_ketentuan": {
+                    "dokumen_diperlukan": [
+                        "Fotokopi bukti kepemilikan produk/properti grup Ciputra",
+                        "Fotokopi Kartu Susunan Keluarga (KSK)"
+                    ],
+                    "pengecualian": [
+                        "Tidak berlaku untuk calon mahasiswa program Kedokteran (MED-RC & MED-IC) dan Dental Medicine (DEM)",
+                        "Tidak dapat digabungkan dengan fasilitas keringanan lainnya, termasuk beasiswa"
+                    ],
+                    "proses_pencairan": {
+                        "deskripsi": "Fasilitas 'Cash Back' akan dibayarkan melalui rekening bank.",
+                        "syarat": [
+                            "Pencairan dilakukan setelah calon mahasiswa resmi menjadi mahasiswa baru Universitas Ciputra.",
+                            "Formulir untuk pencairan dapat diperoleh dan harus diisi di Student Service."
+                        ]
+                    }
+                },
+                "catatan_penting": [
+                    "Fasilitas ini hanya berlaku untuk calon mahasiswa yang memenuhi syarat di atas.",
+                    "Pastikan semua dokumen pendukung lengkap sebelum mengajukan klaim 'Cash Back'."
+                ]
+            }
+        },
+        {
+            "jadwal_orientasi": [
+                {
+                    "jenis": "Periode 1, yang registrasi ulang sebelum bulan Juni",
+                    "jadwal": "Juli/Agustus"
+                },
+                {
+                    "jenis": "Periode 2, yang registrasi ulang mulai bulan Juni dan setelahnya",
+                    "jadwal": "Periode berikutnya, di antara jadwal kulaih."
+                }
+            ]
+        },
+        {
+            "prosedur_pembatalan": {
+                "pembatalan_otomatis": {
+                    "deskripsi": "Pembatalan otomatis calon mahasiswa dapat terjadi untuk beberapa kondisi sebagai berikut:",
+                    "kondisi": [
+                        "Jika dalam melakukan pengisian data formulir pendaftaran tidak sesuai keadaan sebenarnya.",
+                        "Tidak mengikuti ketentuan waktu registrasi ulang.",
+                        "Jika tidak hadir tes sesuai jadwal yang dipilih tanpa konfirmasi ke email pmb@ciputra.ac.id.",
+                        "Jika mahasiswa baru tidak hadir kuliah dalam waktu 2 minggu berturut-turut sejak perkuliahan efektif dimulai."
+                    ]
+                },
+                "pengajuan_pembatalan": {
+                    "deskripsi": "Pengajuan pembatalan dilakukan untuk kasus tertentu dengan ketentuan sebagai berikut:",
+                    "kondisi": [
+                        "Untuk calon mahasiswa program Kedokteran (MED-RC & MED-IC) & Dental Medicine (DEM), tidak ada pengembalian biaya DPP, SPP, dan O-Week.",
+                        "Calon mahasiswa yang membatalkan diri menjadi mahasiswa Universitas Ciputra, maka DPP yang telah dibayarkan tidak dapat dikembalikan. Biaya SPP & SKS dapat dikembalikan sebesar 25% dengan syarat mengajukan surat pengunduran diri yang ditandatangani orang tua dan dikirimkan ke email: pmb@ciputra.ac.id.",
+                        "Calon mahasiswa yang tidak lulus SMA dapat mengurus pengembalian DPP, SPP, dan SKS yang telah dibayarkan dengan menunjukkan bukti berupa surat keterangan dari Kepala Sekolah.",
+                        "Calon mahasiswa yang diterima melalui jalur beasiswa (potongan beasiswa meliputi biaya SPP dan/atau SKS) tidak dapat mengajukan pengembalian biaya kuliah yang telah dibayarkan dengan alasan apa pun.",
+                        "Calon mahasiswa yang diterima di Seleksi Nasional Berdasarkan Prestasi (SNBP Perguruan Tinggi Negeri) dapat mengurus pengembalian DPP, SPP, dan SKS dengan syarat:\n- Mengajukan surat pembatalan sebagai mahasiswa Universitas Ciputra (ditandatangani orang tua).\n- Memberikan bukti penerimaan di SNBP.\n- Biaya akan dipotong sebesar Rp5.000.000 dari jumlah yang sudah dibayarkan.",
+                        "Biaya Orientasi (ORI) tidak dapat dikembalikan apabila calon mahasiswa sudah melakukan registrasi ulang tahap pertama.",
+                        "Calon mahasiswa yang membatalkan diri menjadi mahasiswa Universitas Ciputra, maka biaya yang telah dibayarkan tidak dapat dipindahkan ke pihak mana pun atau ke tahun periode PMB selanjutnya.",
+                        "Pengajuan pembatalan dapat dilakukan maksimal 1 bulan sebelum perkuliahan dimulai."
+                    ],
+                    "kontak": "Untuk pengajuan atau pertanyaan lebih lanjut, hubungi pmb@ciputra.ac.id."
+                }
+            }
+        }
+    ],
+    "biaya_kuliah": {
+        "dpp": {
+            "deskripsi": "Dana Pembangunan dan Pengembangan (DPP) hanya dibayarkan satu kali di awal. Biaya ini digunakan untuk pengembangan fasilitas, sumber daya, dan infrastruktur kampus.",
+            "potongan_biaya_dpp": {
+                "deskripsi": "Potongan biaya DPP diberikan berdasarkan waktu pelunasan pembayaran. Semakin awal pelunasan, semakin besar potongan yang diberikan.",
+                "tabel": [
+                    {
+                        "tanggal_pelunasan": "20 Januari 2025",
+                        "potongan": "Rp 15.000.000"
+                    },
+                    {
+                        "tanggal_pelunasan": "20 Februari 2025",
+                        "potongan": "Rp 12.500.000"
+                    },
+                    {
+                        "tanggal_pelunasan": "20 Maret 2025",
+                        "potongan": "Rp 10.000.000"
+                    },
+                    {
+                        "tanggal_pelunasan": "20 April 2025",
+                        "potongan": "Rp 7.500.000"
+                    },
+                    {
+                        "tanggal_pelunasan": "20 Mei 2025",
+                        "potongan": "Rp 5.000.000"
+                    },
+                    {
+                        "tanggal_pelunasan": "20 Juni 2025",
+                        "potongan": "Rp 2.500.000"
+                    }
+                ],
+                "catatan": "Potongan hanya berlaku untuk pembayaran Dana Pembangunan dan Pengembangan (DPP)."
+            }
+        },
+        "spp": {
+            "deskripsi": "Sumbangan Pembinaan Pendidikan (SPP) dibayarkan setiap semester. Biaya ini mencakup operasional pendidikan seperti pengajaran, administrasi, dan layanan mahasiswa."
+        },
+        "sks": {
+            "deskripsi": "Satuan Kredit Semester (SKS) dibayarkan setiap semester berdasarkan jumlah SKS yang diambil oleh mahasiswa. Biaya ini mencakup akses kepada program pembelajaran di setiap mata kuliah."
+        },
+        "ori": {
+            "deskripsi": "Biaya Orientasi (ORI) mencakup kegiatan O-Week, perlengkapan orientasi, dan Jas Almamater. Biaya ini hanya dibayarkan satu kali di awal masa perkuliahan."
+        }
+    }
+}

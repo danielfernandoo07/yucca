@@ -1,0 +1,16 @@
+version: "3.0"
+
+intents:
+  - ask_about_faculties
+  - ask_registration
+
+responses:
+  utter_iamabot:
+    - text: "Saya adalah asisten virtual Universitas Ciputra. Bagaimana saya bisa membantu Anda?"
+  utter_faculties:
+    - text: "Berikut adalah daftar fakultas yang tersedia di Universitas Ciputra."
+  utter_registration:
+    - text: "Proses pendaftaran meliputi pembelian voucher, mengisi formulir, dan mengikuti seleksi masuk."
+
+actions:
+  - action_fetch_knowledge_base

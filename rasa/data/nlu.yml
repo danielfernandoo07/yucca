@@ -1,0 +1,12 @@
+version: "3.0"
+nlu:
+- intent: ask_about_faculties
+  examples: |
+    - Apa saja fakultas yang ada di Universitas Ciputra?
+    - Fakultas apa saja yang tersedia?
+    - Bisa beri tahu daftar fakultas?
+- intent: ask_registration
+  examples: |
+    - Bagaimana cara mendaftar di Universitas Ciputra?
+    - Apa langkah-langkah pendaftaran?
+    - Bisakah saya mengetahui prosedur pendaftaran?
