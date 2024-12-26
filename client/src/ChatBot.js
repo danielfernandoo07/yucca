@@ -1,91 +1,66 @@
 import React, { useState } from "react";
 import axios from "axios";
 
-const ChatBot = () => {
-    const [messages, setMessages] = useState([]);
-    const [input, setInput] = useState("");
+const ChatBot = ({ onResponse }) => {
+  const [messages, setMessages] = useState([]);
+  const [input, setInput] = useState("");
 
-    // // Handle STT: Speech-to-Text
-    // const handleSpeechToText = () => {
-    //     const recognition = new (window.SpeechRecognition || window.webkitSpeechRecognition)();
-    //     recognition.lang = "id-ID"; // Bahasa Indonesia
-    //     recognition.onresult = (event) => {
-    //         const userMessage = event.results[0][0].transcript;
-    //         setInput(userMessage);
-    //         sendMessage(userMessage);
-    //     };
-    //     recognition.start();
-    // };
+  const sendMessage = async (message) => {
+    if (!message.trim()) return;
 
-    // // Handle TTS: Text-to-Speech
-    // const handleTextToSpeech = (text) => {
-    //     window.responsiveVoice.speak(text, "Indonesian Female");
-    // };
+    // Add user's message to chat
+    setMessages((prev) => [...prev, { sender: "user", text: message }]);
+    setInput("");
 
-    // Handle Sending Message to Rasa API
-    const sendMessage = async (message) => {
-        if (!message.trim()) return;
+    try {
+      const response = await axios.post("http://localhost:3001/chat", { message });
+      const botResponses = response.data.map((res) => ({ sender: "bot", text: res.text }));
 
-        // Add user's message to the chat
-        setMessages((prevMessages) => [...prevMessages, { sender: "user", text: message }]);
-        setInput("");
+      setMessages((prev) => [...prev, ...botResponses]);
 
-        try {
-            const response = await axios.post("http://localhost:3001/chat", { message });
+      // Pass the first bot response to ThreeDModel
+      if (botResponses.length > 0) {
+        onResponse(botResponses[0].text);
+      }
+    } catch (error) {
+      console.error(error);
+      setMessages((prev) => [
+        ...prev,
+        { sender: "bot", text: "Maaf, terjadi kesalahan. Coba lagi nanti." },
+      ]);
+    }
+  };
 
-            // Handle bot response
-            const botMessages = response.data.map((res) => ({
-                sender: "bot",
-                text: res.text,
-            }));
+  return (
+    <div style={{ padding: "10px" }}>
+      {/* Chat Messages */}
+      <div style={{ maxHeight: "300px", overflowY: "auto", marginBottom: "10px" }}>
+        {messages.map((msg, index) => (
+          <div
+            key={index}
+            style={{ textAlign: msg.sender === "user" ? "right" : "left", margin: "10px 0" }}
+          >
+            <strong>{msg.sender === "user" ? "Anda" : "Yucca"}:</strong> {msg.text}
+          </div>
+        ))}
+      </div>
 
-            setMessages((prevMessages) => [...prevMessages, ...botMessages]);
-
-            // // Speak bot's response
-            // if (botMessages.length > 0) {
-            //     handleTextToSpeech(botMessages[0].text);
-            // }
-        } catch (error) {
-            console.error("Error sending message:", error);
-            setMessages((prevMessages) => [
-                ...prevMessages,
-                { sender: "bot", text: "Maaf, terjadi kesalahan. Coba lagi nanti." },
-            ]);
-        }
-    };
-
-
-    return (
-        <div style={{ maxWidth: "600px", margin: "0 auto", textAlign: "center" }}>
-            <h1>ChatBot Universitas Ciputra</h1>
-            <div style={{ border: "1px solid #ccc", padding: "10px", height: "400px", overflowY: "scroll" }}>
-                {messages.map((msg, index) => (
-                    <div
-                        key={index}
-                        style={{
-                            textAlign: msg.sender === "user" ? "right" : "left",
-                            margin: "10px 0",
-                        }}
-                    >
-                        <strong>{msg.sender === "user" ? "Anda" : "Yucca"}: </strong>
-                        {msg.text}
-                    </div>
-                ))}
-            </div>
-            <div style={{ marginTop: "20px" }}>
-                {/* <button onClick={handleSpeechToText}>🎤 Bicara</button> */}
-                <input
-                    type="text"
-                    value={input}
-                    onChange={(e) => setInput(e.target.value)}
-                    onKeyPress={(e) => e.key === "Enter" && sendMessage(input)}
-                    placeholder="Tulis pesan..."
-                    style={{ width: "70%", margin: "0 10px", padding: "10px" }}
-                />
-                <button onClick={() => sendMessage(input)}>Kirim</button>
-            </div>
-        </div>
-    );
+      {/* Input Area */}
+      <div style={{ display: "flex" }}>
+        <input
+          type="text"
+          value={input}
+          onChange={(e) => setInput(e.target.value)}
+          onKeyPress={(e) => e.key === "Enter" && sendMessage(input)}
+          placeholder="Tulis pesan..."
+          style={{ flex: 1, padding: "10px", marginRight: "10px" }}
+        />
+        <button onClick={() => sendMessage(input)} style={{ padding: "10px" }}>
+          Kirim
+        </button>
+      </div>
+    </div>
+  );
 };
 
 export default ChatBot;

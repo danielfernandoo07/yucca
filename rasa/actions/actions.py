@@ -36,7 +36,7 @@ class ActionFetchKnowledgeBase(Action):
 
         elif intent == "ask_registration":
             registration_info = knowledge_base.get("pendaftaran", [])
-            response = "Berikut adalah informasi pendafaran:\n" + "\n".join(
+            response = "Berikut adalah informasi pendaftaran:\n" + "\n".join(
                 [f"- {info['informasi']}" for info in registration_info[0]["informasi_pendaftaran"]]
             )
             dispatcher.utter_message(text=response)
