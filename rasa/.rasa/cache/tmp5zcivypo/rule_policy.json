@@ -1,0 +1,26 @@
+{
+  "lookup": {
+    "rules": {
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"ask_about_university\"}}]": "action_fetch_knowledge_base",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"ask_about_university\"}}, {\"prev_action\": {\"action_name\": \"action_fetch_knowledge_base\"}, \"user\": {\"intent\": \"ask_about_university\"}}]": "action_listen",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"ask_about_faculties\"}}]": "action_fetch_knowledge_base",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"ask_about_faculties\"}}, {\"prev_action\": {\"action_name\": \"action_fetch_knowledge_base\"}, \"user\": {\"intent\": \"ask_about_faculties\"}}]": "action_listen",
+      "[{\"prev_action\": {\"action_name\": \"action_default_fallback\"}}]": "action_listen",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"ask_about_yucca\"}}]": "action_fetch_knowledge_base",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"ask_about_yucca\"}}, {\"prev_action\": {\"action_name\": \"action_fetch_knowledge_base\"}, \"user\": {\"intent\": \"ask_about_yucca\"}}]": "action_listen",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"ask_about_tuition\"}}]": "action_fetch_knowledge_base",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"ask_about_tuition\"}}, {\"prev_action\": {\"action_name\": \"action_fetch_knowledge_base\"}, \"user\": {\"intent\": \"ask_about_tuition\"}}]": "action_listen",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"ask_registration\"}}]": "action_fetch_knowledge_base",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"ask_registration\"}}, {\"prev_action\": {\"action_name\": \"action_fetch_knowledge_base\"}, \"user\": {\"intent\": \"ask_registration\"}}]": "action_listen"
+    },
+    "rule_only_slots": [],
+    "rule_only_loops": [],
+    "rules_for_loop_unhappy_path": {},
+    "rules_not_in_stories": [
+      "predicting default action with intent back",
+      "predicting default action with intent restart",
+      "predicting default action with intent session_start",
+      "[{\"prev_action\": {\"action_name\": \"action_default_fallback\"}}]"
+    ]
+  }
+}

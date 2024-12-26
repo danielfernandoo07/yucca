@@ -1,4 +1,43 @@
 {
+    "instruksi": {
+        "peran": "Yucca AI adalah asisten virtual yang dirancang untuk memberikan informasi yang berguna dan akurat tentang Universitas Ciputra.",
+        "nada": "Ramah, mudah didekati, profesional, menghormati, dan menggunakan bahasa yang sederhana serta mudah dipahami.",
+        "kemampuan": [
+            "Menjawab pertanyaan tentang program akademik, penerimaan, kehidupan kampus, dan acara universitas.",
+            "Memberikan panduan tentang kebijakan dan sumber daya universitas."
+        ],
+        "batasan": [
+            "Tidak dapat memberikan saran pribadi atau hukum.",
+            "Tidak mengakses informasi rahasia atau sensitif.",
+            "Hanya beroperasi berdasarkan data yang tersedia di knowledge base."
+        ],
+        "adaptabilitas": "Jika pertanyaan berada di luar cakupan, Yucca akan mengarahkan pengguna ke sumber daya atau kontak yang sesuai.",
+        "panduan_etika": "Yucca memastikan jawaban yang sopan, akurat, tidak bias, dan disampaikan dengan cara yang dapat dipahami oleh semua pengguna, termasuk mereka yang mungkin tidak memiliki latar belakang akademik yang kuat."
+    },
+    "yucca_identity": {
+        "character": {
+            "description": "Yucca adalah seekor unicorn lucu yang berpendirian teguh. Ia tidak mudah menyerah dan mudah beradaptasi dalam situasi sulit. Yucca memiliki tanduk dan kekuatan magis, tumbuh bersama Chap, Chip, dan Chup—tiga anak ayam bersaudara yang melambangkan nilai-nilai Integrity, Professionalism, dan Entrepreneurship Universitas Ciputra.",
+            "values": {
+                "integritas": "Dilambangkan oleh Chap.",
+                "profesionalisme": "Dilambangkan oleh Chip.",
+                "kewirausahaan": "Dilambangkan oleh Chup."
+            }
+        },
+        "arti_simbolis": {
+            "tanaman_yucca": {
+                "asal": "Nama Yucca terinspirasi dari tanaman Yucca, yang hidup di daerah gersang Amerika Selatan dan sering digunakan oleh Suku Indian.",
+                "nilai": [
+                    "Melambangkan kekuatan, ketahanan, dan siklus alami kehidupan.",
+                    "Mengajarkan nilai pantang menyerah dan kemampuan tumbuh subur dalam kesukaran.",
+                    "Mengingatkan manusia untuk hidup harmonis dengan alam."
+                ]
+            }
+        },
+        "koneksi_dengan_uc": {
+            "akronim": "YUCCA: UNIversitas Ciputra fOR eNtrepreneurship.",
+            "misi": "Melambangkan semangat Universitas Ciputra dalam membangun generasi yang tangguh, profesional, dan berintegritas, sambil menghormati lingkungan dan nilai-nilai kehidupan."
+        }
+    },
     "universitas": {
         "nama": "Universitas Ciputra",
         "lokasi": "CitraLand CBD Boulevard, Made, Kec. Sambikerep, Surabaya, Jawa Timur 60219",
@@ -706,6 +745,883 @@
         },
         "ori": {
             "deskripsi": "Biaya Orientasi (ORI) mencakup kegiatan O-Week, perlengkapan orientasi, dan Jas Almamater. Biaya ini hanya dibayarkan satu kali di awal masa perkuliahan."
+        }
+    },
+    "peraturan_rektor": {
+        "judul": "Peraturan Akademik Universitas Ciputra Surabaya",
+        "rektor": "Rektor Universitas Ciputra Surabaya",
+        "menimbang": [
+            "Bahwa dalam menjalankan tridharma perguruan tinggi, diperlukan aturan-aturan dan batasan tertentu yang muat dalam dokumen peraturan akademik universitas.",
+            "Bahwa selanjutnya dokumen ini mampu memberikan informasi kepada sivitas akademika tentang gambaran proses akademik yang berlaku di Universitas Ciputra Surabaya.",
+            "Bahwa atas dasar tersebut di atas perlu ditetapkan dalam Surat Keputusan Rektor Universitas Ciputra Surabaya."
+        ],
+        "mengingat": [
+            "Undang-Undang Republik Indonesia Nomor 20 Tahun 2003 Tentang Sistem Pendidikan Nasional.",
+            "Undang-Undang Nomor 12 Tahun 2012 tentang Pendidikan Tinggi.",
+            "Peraturan Pemerintah Nomor 4 Tahun 2014 tentang Penyelenggaraan Pendidikan Tinggi dan Penyelenggaraan Perguruan Tinggi.",
+            "Peraturan Presiden Nomor 63 Tahun 2019 tentang Penggunaan Bahasa Indonesia.",
+            "Peraturan Menteri Pendidikan dan Kebudayaan No. 3 Tahun 2020 tentang Standar Nasional Pendidikan Tinggi.",
+            "Peraturan Menteri Pendidikan dan Kebudayaan Nomor 73 Tahun 2013 tentang Penetapan Kerangka Kualifikasi Nasional Bidang Pendidikan Tinggi.",
+            "Keputusan Dirjen DIKTI No. 25/DIKTI/Kep/2014 Tentang Panduan Umum Pengenalan Kehidupan Kampus Bagi Mahasiswa.",
+            "Konsil Kedokteran Indonesia tentang Standar Kompetensi Dokter Indonesia tahun 2012.",
+            "Konsil Kedokteran Indonesia tentang Standar Pendidikan Profesi Dokter Indonesia tahun 2012.",
+            "Peraturan Menteri Pendidikan, Kebudayaan, Riset dan Teknologi Nomor 41 Tahun 2021 tentang Rekognisi Pembelajaran Lampau.",
+            "KPT 2016 tentang Kurikulum Perguruan Tinggi.",
+            "Statuta Universitas Ciputra."
+        ],
+        "memperhatikan": "Peraturan Rektor No. UC/REG/REC/01 Rev. 00 tentang Peraturan Akademik Universitas Ciputra Surabaya.",
+        "memutuskan": {
+            "penetapan": "Peraturan Rektor No. UC/REG/REC/01 Rev. 01 Tentang Peraturan Akademik Universitas Ciputra Surabaya"
+        },
+        "bab_i": {
+            "judul": "Pendahuluan",
+            "pasal_1": {
+                "judul": "Pengertian",
+                "pengertian": {
+                    "universitas": "Universitas Ciputra Surabaya yang selanjutnya disebut UC adalah perguruan tinggi swasta berbadan hukum.",
+                    "rektor": "Rektor adalah pimpinan tertinggi di UC.",
+                    "dekan": "Dekan adalah pimpinan tertinggi Fakultas di lingkungan UC yang berwenang dan bertanggung jawab terhadap pengelolaan Fakultas.",
+                    "fakultas": "Fakultas adalah himpunan sumber daya pendukung yang menyelenggarakan dan mengelola sejumlah program pendidikan akademik dalam satu rumpun disiplin ilmu pengetahuan dan teknologi.",
+                    "program_studi": "Program Studi adalah kesatuan kegiatan pendidikan dan pembelajaran yang memiliki kurikulum dan metode pembelajaran tertentu dalam satu jenis pendidikan akademik, pendidikan vokasi, dan/atau pendidikan profesi.",
+                    "program_pendidikan_akademik": "Program Pendidikan Akademik adalah program pendidikan yang diarahkan pada penguasaan ilmu pengetahuan dan teknologi.",
+                    "program_sarjana": "Program sarjana merupakan pendidikan akademik yang diperuntukkan bagi lulusan pendidikan menengah atau sederajat sehingga mampu mengamalkan Ilmu Pengetahuan dan Teknologi melalui penalaran ilmiah.",
+                    "program_profesi": "Program pendidikan profesi adalah program pendidikan sesudah program sarjana yang mempersiapkan peserta didik untuk memiliki kemampuan dalam keahlian khusus dan diselenggarakan bersama dengan organisasi profesi.",
+                    "program_magister": "Program magister merupakan pendidikan akademik yang diperuntukkan bagi lulusan program sarjana atau sederajat sehingga mampu mengamalkan dan mengembangkan Ilmu Pengetahuan dan/atau Teknologi melalui penalaran dan penelitian ilmiah.",
+                    "program_doktor": "Program doktor merupakan pendidikan akademik yang diperuntukkan bagi lulusan magister atau sederajat sehingga mampu mengamalkan dan mengembangkan Ilmu Pengetahuan dan/atau Teknologi melalui penalaran dan penelitian ilmiah.",
+                    "capaian_pembelajaran": "Capaian pembelajaran adalah internalisasi dan akumulasi ilmu pengetahuan, pengetahuan praktis, ketrampilan, afeksi, dan kompetensi yang dicapai melalui proses pendidikan yang terstruktur dan mencakup suatu bidang ilmu/keahlian tertentu atau melalui pengalaman kerja.",
+                    "kurikulum": "Kurikulum merupakan seperangkat rencana dan pengaturan mengenai tujuan, isi dan bahan pembelajaran, serta cara yang digunakan sebagai pedoman penyelenggaraan pembelajaran di UC untuk mencapai tujuan suatu program studi.",
+                    "semester": "Semester adalah satuan waktu kegiatan yang terdiri dari 16 (enam belas) minggu perkuliahan atau kegiatan terjadwal lainnya, termasuk kegiatan evaluasi.",
+                    "sks": "Sistem Kredit Semester yang selanjutnya disingkat SKS adalah suatu sistem penyelenggaraan pendidikan dengan menggunakan sks.",
+                    "satuan_kredit_semester": "Satuan kredit semester yang selanjutnya disingkat sks adalah takaran waktu kegiatan belajar yang dibebankan pada mahasiswa per minggu per semester dalam proses pembelajaran melalui berbagai bentuk pembelajaran.",
+                    "stase": "Stase adalah bagian-bagian sesuai bidang ilmu dalam siklus kepaniteraan klinik kedokteran.",
+                    "kalender_akademik": "Kalender Akademik adalah jadwal semua kegiatan kurikuler selama satu tahun ajaran yang diterbitkan oleh universitas. Kegiatan di luar kurikuler tercantum dalam jadwal yang dikeluarkan oleh universitas melalui BMA.",
+                    "mahasiswa": "Mahasiswa adalah mahasiswa UC yang tercatat secara resmi.",
+                    "dokter_muda": "Dokter Muda (DM) adalah mahasiswa pendidikan profesi dokter UC yang sedang melakukan pendidikan di Rumah Sakit Pendidikan (koas).",
+                    "mitra_uc": "Mitra UC adalah perguruan tinggi, industri, atau lembaga di dalam dan/atau di luar negeri yang mempunyai nota kesepahaman (MoU) dan/atau nota kesepakatan (MoA) secara kelembagaan dengan UC.",
+                    "kegiatan_akademik_luar_uc": "Kegiatan akademik di luar UC adalah kegiatan akademik yang dilakukan oleh mahasiswa di perguruan tinggi lain di luar UC.",
+                    "kredit_point": "Kredit Point (KP) adalah satuan yang digunakan untuk mengukur kemampuan mahasiswa yang didapat melalui kegiatan di luar kurikuler mahasiswa dan berfungsi sebagai salah satu syarat kelulusan bagi mahasiswa program Sarjana.",
+                    "sertifikat_profesi": "Sertifikat profesi merupakan pengakuan untuk melakukan praktik profesi yang diperoleh lulusan pendidikan profesi yang diselenggarakan oleh Perguruan Tinggi bekerjasama dengan Kementerian, Kementerian lain, Lembaga Pemerintah Non Kementerian (LPNK), dan/atau organisasi profesi yang bertanggung jawab atas mutu lauanan profesi, dan/atau badan lain sesuai dengan ketentuan peraturan perundang-undangan. Sertifikat profesi diterbitkan oleh Perguruan tinggi Bersama dengan Kementerian, Kementerian lain, LPNK, dan/atau organisasi profesi yang bertanggung jawab atas mutu lauanan profesi, dan/atau badan lain sesuai dengan ketentuan peraturan perundang-undangan.",
+                    "pembimbing_akademik": "Dosen Pembimbing Akademik (PA) adalah dosen yang bertugas membimbing mahasiswa dan memantau perkembangan studi mahasiswa sejak awal hingga mahasiswa dinyatakan lulus.",
+                    "rpl": "Rekognisi Pembelajaran Lampau (RPL) adalah pengakuan atas capaian pembelajaran seseorang yang diperoleh dari pendidikan formal, nonformal, informal, dan/atau pengalaman kerja sebagai dasar untuk melanjutkan pendidikan formal dan untuk melakukan penyetaraan dengan kualifikasi tertentu."
+                }
+            }
+        },
+        "pasal_2": {
+            "judul": "Program Pendidikan",
+            "program_pendidikan": {
+                "penyelenggaraan": "UC menyelenggarakan program pendidikan akademik.",
+                "jenis": [
+                    "Program Sarjana",
+                    "Program Profesi",
+                    "Program Magister",
+                    "Program Doktor"
+                ],
+                "sarjana": {
+                    "fakultas": [
+                        {
+                            "nama": "Fakultas Bisnis dan Manajemen",
+                            "program_studi": [
+                                "Program Studi Manajemen",
+                                "Program Studi Akuntansi"
+                            ]
+                        },
+                        {
+                            "nama": "Fakultas Industri Kreatif",
+                            "program_studi": [
+                                "Program Studi Arsitektur",
+                                "Program Studi Desain Komunikasi Visual",
+                                "Program Studi Desain Produk"
+                            ]
+                        },
+                        {
+                            "nama": "Fakultas Psikologi",
+                            "program_studi": [
+                                "Program Studi Psikologi"
+                            ]
+                        },
+                        {
+                            "nama": "Fakultas Pariwisata",
+                            "program_studi": [
+                                "Program Studi Pariwisata",
+                                "Program Studi Teknologi Pangan"
+                            ]
+                        },
+                        {
+                            "nama": "Fakultas Kedokteran",
+                            "program_studi": [
+                                "Program Studi Sarjana Kedokteran"
+                            ]
+                        },
+                        {
+                            "nama": "Fakultas Ilmu Komunikasi dan Bisnis Media",
+                            "program_studi": [
+                                "Program Studi Ilmu Komunikasi"
+                            ]
+                        },
+                        {
+                            "nama": "Fakultas Teknologi Informasi",
+                            "program_studi": [
+                                "Program Studi Informatika",
+                                "Program Studi Sistem Informasi"
+                            ]
+                        }
+                    ]
+                },
+                "profesi": {
+                    "fakultas": "Fakultas Kedokteran",
+                    "program_studi": [
+                        "Program Studi Pendidikan Profesi Dokter"
+                    ]
+                },
+                "magister": {
+                    "fakultas": "Fakultas Bisnis dan Manajemen",
+                    "program_studi": [
+                        "Program Studi Magister Manajemen"
+                    ]
+                },
+                "doktor": {
+                    "fakultas": "Fakultas Bisnis dan Manajemen",
+                    "program_studi": [
+                        "Program Studi Doktor Ilmu Manajemen"
+                    ]
+                },
+                "pengembangan": "UC akan mengembangkan program pendidikan yang lain sesuai kebutuhan dan peraturan yang berlaku."
+            }
+        },
+        "pasal_4": {
+            "judul": "Penyelenggaraan Program Pendidikan",
+            "penyelenggaraan": [
+                "Program pendidikan di UC diselenggarakan dengan menggunakan Sistem Kredit Semester (SKS), yaitu penyelenggaraan dengan menggunakan satuan kredit semester (sks) sebagai takaran beban studinya.",
+                "Khusus untuk Program Studi Kedokteran selain menggunakan Sistem Kredit Semester (SKS) juga digunakan sistem blok.",
+                "Program Studi Pendidikan Profesi Dokter selain menggunakan Sistem Kredit Semester (SKS) juga menggunakan sistem Stase."
+            ],
+            "sistem_pembelajaran": {
+                "metode": "Pembelajaran berbasis Outcome-Based Education (OBE).",
+                "pelaksanaan": [
+                    "Synchronous (pembelajaran real-time dengan komunikasi dua arah).",
+                    "Asynchronous (pembelajaran tidak langsung dengan akses bahan belajar di E-learn)."
+                ]
+            },
+            "tahun_akademik": "UC menyelenggarakan tiga semester yaitu semester gasal, semester genap, dan semester antara.",
+            "durasi": {
+                "semester": "Pembelajaran satu semester minimal berlangsung selama 16 minggu termasuk evaluasi (AFL dan ALP).",
+                "semester_antara": [
+                    "Setelah semester genap berakhir, berlangsung selama 8 minggu dengan minimal 16 kali tatap muka.",
+                    "Beban belajar mahasiswa maksimal 9 sks."
+                ]
+            },
+            "beban_studi": {
+                "sarjana": "Minimal 144 sks, masa studi maksimal 14 semester.",
+                "sarjana_kedokteran": "Minimal 148 sks untuk angkatan 2018-2021, 151 sks untuk angkatan 2022 ke atas, masa studi maksimal 14 semester.",
+                "profesi_dokter": "Minimal 45 sks, masa studi maksimal 6 semester.",
+                "magister": "Minimal 45 sks, masa studi maksimal 8 semester.",
+                "doktor": "Minimal 42 sks, masa studi maksimal 14 semester."
+            },
+            "bahasa_pengantar": "Bahasa pengantar dapat menggunakan bahasa Indonesia dan bahasa Inggris."
+        },
+        "pasal_5": {
+            "judul": "Kualifikasi Lulusan",
+            "kualifikasi": [
+                "Lulusan Program Pendidikan Sarjana setara dengan kualifikasi jenjang enam.",
+                "Lulusan Program Pendidikan Profesi setara dengan kualifikasi jenjang tujuh.",
+                "Lulusan Program Pendidikan Magister setara dengan kualifikasi jenjang delapan.",
+                "Lulusan Program Pendidikan Doktor setara dengan kualifikasi jenjang sembilan."
+            ]
+        },
+        "pasal_6": {
+            "judul": "Capaian Pembelajaran Lulusan dan Mata Kuliah",
+            "kurikulum": {
+                "tahun": "Mahasiswa yang masuk di tahun akademik 2022, kurikulum program studi yang diberlakukan adalah kurikulum tahun 2022 yang disahkan oleh Rektor.",
+                "cpl": "Dalam setiap kurikulum program studi dirumuskan 'Capaian Pembelajaran Lulusan' (CPL) yang wajib dimiliki oleh setiap lulusan UC, dan diterjemahkan dalam mata kuliah yang tersusun dan terencana di kurikulum program studi.",
+                "mbkm": "Kurikulum yang telah dirumuskan sudah mengakomodir program MBKM. Pelaksanaan MBKM mengacu pada Pedoman Pelaksanaan Program Merdeka Belajar-Kampus Merdeka UC/GUI/SEH/017."
+            },
+            "mata_kuliah": [
+                "Mata Kuliah Wajib Umum",
+                "Mata Kuliah Wajib Universitas",
+                "Mata Kuliah Fundamental Program Studi",
+                "Mata Kuliah Pilihan Universitas",
+                "Mata Kuliah Lintas Program Studi",
+                "Mata Kuliah Pilihan Program Studi",
+                "Mata Kuliah Pengembangan",
+                "Mata Kuliah Magang",
+                "Mata Kuliah Tugas Akhir",
+                "Mata Kuliah Kredensial"
+            ],
+            "mata_kuliah_deskripsi": {
+                "wajib_umum": "Mata kuliah yang ditetapkan secara nasional yang wajib ditempuh semua mahasiswa program sarjana, yang terdiri dari mata kuliah Pancasila (2 sks), Kewarganegaran (2 sks), Agama (2 sks), dan Bahasa Indonesia (2 sks).",
+                "wajib_universitas": "Mata kuliah yang ditetapkan oleh Universitas yang wajib ditempuh semua mahasiswa program sarjana, termasuk Entrepreneur Essentials (3 sks), Desain Inovasi Sosial (3 sks), Menjadi Indonesia (3 sks), Etika (3 sks), dan Etika Kedokteran (3 sks).",
+                "fundamental": "Mata kuliah berdasarkan bidang keilmuan program studi, termasuk pendukung keahlian, pengembangan keahlian berbasis keilmuan, dan tugas akhir.",
+                "pilihan_universitas": "Mata kuliah yang disusun dan dikelola oleh School of Entrepreneurship & Humanities (SEH), masing-masing berbobot 3 sks.",
+                "lintas_program": "Mata kuliah yang diselenggarakan oleh program studi lain dan dapat diambil oleh mahasiswa di luar program studi tersebut.",
+                "magang": "Mata kuliah untuk memberikan pengalaman nyata dunia kerja/industri sesuai prinsip MBKM.",
+                "tugas_akhir": "Mata kuliah yang dapat berupa skripsi, publikasi, proyek bisnis, proyek independen, karya desain, atau pembuatan program sesuai karakteristik program studi.",
+                "kredensial": "Mata kuliah rekognisi Program Kredensial, seperti sertifikat kompetensi, lisensi, penghargaan karya, hasil kompetisi, atau sertifikat kursus/pelatihan."
+            },
+            "sks_deskripsi": {
+                "kuliah": "1 sks untuk kuliah, responsi, atau tutorial setara dengan 50 menit tatap muka, 60 menit penugasan terstruktur, dan 60 menit belajar mandiri per minggu dalam satu semester.",
+                "seminar": "1 sks untuk seminar atau bentuk lain yang sejenis setara dengan 100 menit tatap muka dan 70 menit belajar mandiri per minggu dalam satu semester.",
+                "praktikum": "1 sks untuk praktikum, praktik studio, praktik bengkel, praktik lapangan, penelitian, pengabdian masyarakat, pelatihan militer, pertukaran pelajar, magang, wirausaha, atau sejenisnya setara dengan 170 menit per minggu dalam satu semester."
+            }
+        },
+        "pasal_7": {
+            "judul": "Perencanaan Studi Mahasiswa dan Pembimbing Akademik",
+            "pembimbing_akademik": {
+                "deskripsi": "Setiap mahasiswa selama studi di UC mendapat pendampingan seorang dosen Pembimbing Akademik (PA) yang ditunjuk oleh universitas.",
+                "tugas": [
+                    "Membimbing dan memotivasi mahasiswa untuk mencapai prestasi akademik sesuai dengan kemampuan terbaiknya dan menjadikan mahasiswa menemukan identitas dan karakternya.",
+                    "Membantu mahasiswa dalam menyusun rencana studi di setiap semester dan mengesahkan Rencana Studi (KRS) mahasiswa.",
+                    "Memfasilitasi mahasiswa dalam menyelesaikan masalah akademik yang dihadapi, dan memberi rekomendasi untuk mendapatkan penyelesaian masalah di luar bidang akademik.",
+                    "Menerjemahkan dan menyampaikan konsep atau peraturan akademik yang terkait dengan program universitas kepada mahasiswa untuk kelancaran studi mahasiswa."
+                ]
+            },
+            "rencana_studi": {
+                "deskripsi": "Mahasiswa wajib menyusun rencana studi di setiap awal semester sesuai dengan tahapan kurikulum dan mendaftarkan Kartu Rencana Studi (KRS).",
+                "ketentuan": [
+                    "Rencana studi harus mendapatkan persetujuan dari dosen Pembimbing Akademik dengan mempertimbangkan rencana karir.",
+                    "Perubahan KRS dapat dilakukan paling lambat akhir minggu ke-2 sejak perkuliahan dimulai.",
+                    "Mahasiswa yang tidak mengisi KRS dalam waktu yang ditetapkan akan dianggap non-aktif atau cuti paksa dan menerima surat peringatan pertama."
+                ],
+                "konsekuensi": [
+                    "Apabila tidak mengisi KRS selama dua semester berturut-turut, mahasiswa akan menerima peringatan terakhir dan dapat dinyatakan berhenti studi dari UC jika tidak memberikan pernyataan dalam waktu tertentu."
+                ]
+            },
+            "beban_studi": {
+                "tahun_pertama": {
+                    "deskripsi": "Mahasiswa baru di tahun pertama wajib mengambil seluruh mata kuliah semester 1 dan 2.",
+                    "beban": {
+                        "sarjana": "18 sks per semester.",
+                        "sarjana_kedokteran": "20 sks di semester 2.",
+                        "profesi_dokter": "22 sks per semester."
+                    }
+                },
+                "semester_berikutnya": {
+                    "ketentuan": {
+                        "IPS >= 2.00": "12 sks",
+                        "IPS 2.01 - 2.50": "15 sks",
+                        "IPS 2.51 - 3.00": "18 sks",
+                        "IPS 3.01 - 3.50": "21 sks",
+                        "IPS 3.51 - 4.00": "24 sks"
+                    },
+                    "pengajuan": "Mahasiswa dapat mengajukan permohonan penambahan beban studi melebihi batas yang ditentukan dengan rekomendasi program studi."
+                },
+                "rumus_ips": "IPS = Σ(Ki x Ni) / ΣKi (K adalah sks, N adalah nilai numerik hasil evaluasi)."
+            },
+            "syarat_mata_kuliah": {
+                "magang": {
+                    "semester": 7,
+                    "syarat": [
+                        "Telah menempuh minimal 96 sks.",
+                        "Nilai minimal C untuk setiap mata kuliah (B- untuk program sarjana kedokteran)."
+                    ]
+                },
+                "tugas_akhir": {
+                    "syarat": [
+                        "Telah menempuh minimal 116 sks.",
+                        "Menyelesaikan mata kuliah magang dengan nilai minimal C (B- untuk program sarjana kedokteran)."
+                    ],
+                    "maksimal_sks": "16 sks bersama mata kuliah lain."
+                },
+                "semester_antara": {
+                    "syarat": [
+                        "Maksimal 9 sks.",
+                        "Hanya untuk mata kuliah mengulang dengan nilai minimal D atau E."
+                    ]
+                }
+            }
+        },
+        "pasal_8": {
+            "judul": "Pembelajaran Setiap Semester",
+            "ketentuan": [
+                "Pembelajaran setiap mata kuliah dalam satu semester dapat diselenggarakan dengan berbagai metode, strategi, dan bentuk/model pembelajaran termasuk bentuk assessment sesuai capaian pembelajaran lulusan yang ditetapkan dalam kurikulum.",
+                "Mahasiswa program sarjana, magister, dan doktor wajib mengikuti minimal 75% dari 15 kali pertemuan pembelajaran setiap semester sebagai syarat mengikuti penilaian ALP.",
+                "Mahasiswa program profesi wajib mengikuti 100% dari semua kegiatan pembelajaran setiap stase/mata kuliah yang diselenggarakan.",
+                "Mahasiswa diizinkan untuk tidak mengikuti pembelajaran suatu mata kuliah dengan alasan sakit, musibah, penugasan universitas, atau penugasan negara yang dibuktikan dengan menyerahkan surat keterangan dokter/rumah sakit atau bukti otentik yang disampaikan ke dosen pengampu atau surat penugasan dari universitas atau surat penugasan dari negara.",
+                "Semua mata kuliah yang dijalankan sesuai kurikulum program studi wajib dilakukan 16 kali interaksi/pertemuan termasuk dengan AFL dan ALP, kecuali tugas akhir dan mata kuliah yang bersifat magang (diatur berdasarkan panduan tugas akhir dan magang masing-masing program studi).",
+                "Jika dosen berhalangan hadir (sakit/keperluan keluarga/dll.), dosen dapat mengganti pertemuan untuk menjamin terpenuhinya capaian pembelajaran.",
+                "Kehadiran mahasiswa dan dosen untuk program pembelajaran dengan sistem blended learning diatur sesuai RPS masing-masing mata kuliah."
+            ]
+        },
+        "pasal_9": {
+            "judul": "Evaluasi Proses dan Hasil Belajar Mahasiswa",
+            "evaluasi": {
+                "jenis": [
+                    "Evaluasi sumatif memiliki bobot 0% - 25%.",
+                    "Evaluasi formatif memiliki bobot 75% - 100%."
+                ],
+                "khusus_kedokteran": {
+                    "deskripsi": "Evaluasi untuk Program Studi Kedokteran dan Program Studi Pendidikan Profesi Dokter meliputi:",
+                    "metode": [
+                        "Ujian Multiple Choice Question (MCQ).",
+                        "Ujian Praktikum.",
+                        "Nilai Small Group Discussion (SGD): (nilai harian, nilai laporan, Ujian SOCA).",
+                        "Nilai Ketrampilan Medik."
+                    ]
+                },
+                "standar_profesi": {
+                    "syarat": [
+                        "Mahasiswa pendidikan profesi wajib lulus semua Stase dengan standar penilaian yang disepakati antara UC dan Rumah Sakit Pendidikan.",
+                        "Mahasiswa pendidikan profesi dokter harus memiliki kemampuan sesuai dengan Standar Kompetensi Dokter Indonesia (SKDI) yang disahkan oleh Konsil Kedokteran Indonesia."
+                    ]
+                }
+            },
+            "skala_penilaian": {
+                "umum": [
+                    {
+                        "nilai_angka": "90 - 100",
+                        "nilai_huruf": "A",
+                        "nilai_numerik": 4.00,
+                        "kategori": "Unggul",
+                        "klasifikasi": "Excellence"
+                    },
+                    {
+                        "nilai_angka": "85 - 89.99",
+                        "nilai_huruf": "A-",
+                        "nilai_numerik": 3.75,
+                        "kategori": "Luar Biasa"
+                    },
+                    {
+                        "nilai_angka": "80 - 84.99",
+                        "nilai_huruf": "B+",
+                        "nilai_numerik": 3.50,
+                        "kategori": "Sangat Baik",
+                        "klasifikasi": "Mastery"
+                    },
+                    {
+                        "nilai_angka": "75 - 79.99",
+                        "nilai_huruf": "B",
+                        "nilai_numerik": 3.00,
+                        "kategori": "Baik"
+                    },
+                    {
+                        "nilai_angka": "70 - 74.99",
+                        "nilai_huruf": "B-",
+                        "nilai_numerik": 2.75,
+                        "kategori": "Hampir Baik"
+                    },
+                    {
+                        "nilai_angka": "60 - 69.99",
+                        "nilai_huruf": "C+",
+                        "nilai_numerik": 2.38,
+                        "kategori": "Cukup Baik",
+                        "klasifikasi": "Developing"
+                    },
+                    {
+                        "nilai_angka": "55 - 59.99",
+                        "nilai_huruf": "C",
+                        "nilai_numerik": 2.00,
+                        "kategori": "Cukup"
+                    },
+                    {
+                        "nilai_angka": "45 - 54.99",
+                        "nilai_huruf": "D",
+                        "nilai_numerik": 1.00,
+                        "kategori": "Kurang"
+                    },
+                    {
+                        "nilai_angka": "0 - 44.99",
+                        "nilai_huruf": "E",
+                        "nilai_numerik": 0.00,
+                        "kategori": "Buruk"
+                    }
+                ],
+                "kedokteran": [
+                    {
+                        "nilai_angka": "85 - 100",
+                        "nilai_huruf": "A",
+                        "nilai_numerik": 4.00,
+                        "kategori": "Unggul"
+                    },
+                    {
+                        "nilai_angka": "80 - 84.99",
+                        "nilai_huruf": "A-",
+                        "nilai_numerik": 3.75,
+                        "kategori": "Luar Biasa"
+                    },
+                    {
+                        "nilai_angka": "75 - 79.99",
+                        "nilai_huruf": "B+",
+                        "nilai_numerik": 3.50,
+                        "kategori": "Sangat Baik"
+                    },
+                    {
+                        "nilai_angka": "70 - 74.99",
+                        "nilai_huruf": "B",
+                        "nilai_numerik": 3.00,
+                        "kategori": "Baik"
+                    },
+                    {
+                        "nilai_angka": "65 - 69.99",
+                        "nilai_huruf": "B-",
+                        "nilai_numerik": 2.75,
+                        "kategori": "Hampir Baik"
+                    },
+                    {
+                        "nilai_angka": "60 - 64.99",
+                        "nilai_huruf": "C+",
+                        "nilai_numerik": 2.38,
+                        "kategori": "Cukup Baik"
+                    },
+                    {
+                        "nilai_angka": "55 - 59.99",
+                        "nilai_huruf": "C",
+                        "nilai_numerik": 2.00,
+                        "kategori": "Cukup"
+                    },
+                    {
+                        "nilai_angka": "45 - 54.99",
+                        "nilai_huruf": "D",
+                        "nilai_numerik": 1.00,
+                        "kategori": "Kurang"
+                    },
+                    {
+                        "nilai_angka": "0 - 44.99",
+                        "nilai_huruf": "E",
+                        "nilai_numerik": 0.00,
+                        "kategori": "Buruk"
+                    }
+                ]
+            }
+        },
+        "pasal_10": {
+            "judul": "Program Sarjana",
+            "kelulusan_umum": {
+                "persyaratan": [
+                    "Telah menempuh semua mata kuliah yang ditetapkan dalam kurikulum program studi minimal sebesar 144 sks, dengan nilai setiap mata kuliah minimal C.",
+                    "Telah memiliki kemampuan yang didapat melalui keikutsertaan kegiatan non kurikuler dengan sekurang-kurangnya mendapatkan 100 kredit poin di bidang kemahasiswaan, kecuali bagi mahasiswa pekerja yang ditetapkan secara khusus oleh universitas sejak masuk UC, yaitu 50 kredit poin.",
+                    "Bagi mahasiswa yang masuk melalui program RPL dibebaskan dari kewajiban untuk mengumpulkan kredit poin kemahasiswaan ini.",
+                    "Kredit poin minimal dapat diperoleh dari kegiatan wajib yang ditetapkan oleh universitas bagi semua mahasiswa yang tertuang pada Manual Student Development UC/SOP/BMA/038.",
+                    "Bagi mahasiswa angkatan 2019 dan seterusnya, telah memiliki sertifikasi profesi P1 yang diterbitkan oleh LSP Universitas Ciputra Surabaya atau lembaga sertifikasi lainnya.",
+                    "Telah memiliki salah satu nilai tes kemampuan bahasa Inggris mengacu pada Pedoman Tes Kemampuan Bahasa Inggris Sebagai Syarat Kelulusan No. UC/GUI/BAA/09."
+                ]
+            },
+            "kelulusan_kedokteran": {
+                "persyaratan": [
+                    "Telah menempuh semua mata kuliah yang ditetapkan dalam kurikulum program studi minimal 148 sks, dengan nilai minimal C, kecuali nilai blok mata kuliah kedokteran minimal ≥ B-.",
+                    "Tugas akhir mendapat nilai minimal B.",
+                    "Telah mengumpulkan sekurang-kurangnya 100 kredit poin di bidang kemahasiswaan.",
+                    "Telah memiliki salah satu nilai tes kemampuan bahasa Inggris mengacu pada Pedoman Tes Kemampuan Bahasa Inggris Sebagai Syarat Kelulusan No. UC/GUI/BAA/09."
+                ]
+            },
+            "predikat_kelulusan": {
+                "angkatan_2019": [
+                    {
+                        "IPK": "4.00",
+                        "predikat": "Maxima Cum Laude"
+                    },
+                    {
+                        "IPK": "3.91-3.99",
+                        "predikat": "Summa Cum Laude"
+                    },
+                    {
+                        "IPK": "3.81-3.90",
+                        "predikat": "Magna Cum Laude"
+                    },
+                    {
+                        "IPK": "3.71-3.80",
+                        "predikat": "Cum Laude"
+                    },
+                    {
+                        "IPK": "3.51-3.70",
+                        "predikat": "Sangat Memuaskan/Very Good"
+                    },
+                    {
+                        "IPK": "3.01-3.50",
+                        "predikat": "Memuaskan/Good"
+                    },
+                    {
+                        "IPK": "2.76-3.00",
+                        "predikat": "Baik/Satisfactory"
+                    },
+                    {
+                        "IPK": "2.00-2.75",
+                        "predikat": "Cukup/Fair"
+                    }
+                ],
+                "angkatan_2020": [
+                    {
+                        "IPK": "3.91-4.00",
+                        "syarat": "Memenuhi syarat predikat Summa Cum Laude (ayat 7)",
+                        "predikat": "Summa Cum Laude"
+                    },
+                    {
+                        "IPK": "3.51-4.00",
+                        "syarat": "Memenuhi syarat predikat Cum Laude (ayat 6)",
+                        "predikat": "Cum Laude"
+                    },
+                    {
+                        "IPK": "3.51-4.00",
+                        "syarat": "Tidak memenuhi syarat predikat",
+                        "predikat": "Sangat Memuaskan/Very Good"
+                    },
+                    {
+                        "IPK": "2.76-3.50",
+                        "syarat": "Tidak memerlukan syarat predikat",
+                        "predikat": "Memuaskan"
+                    }
+                ]
+            },
+            "syarat_predikat": {
+                "cum_laude": [
+                    "Memenuhi Kredit poin kategori Penelitian dan PkM ≥ 15.",
+                    "Memenuhi Kredit poin kategori Prestasi kemahasiswaan ≥ 25.",
+                    "Masa studi ≤ 4 tahun program sarjana.",
+                    "Tidak melanggar kode etik Perguruan Tinggi."
+                ],
+                "summa_cum_laude": [
+                    "Kredit poin kategori Penelitian dan PkM ≥ 60.",
+                    "Memenuhi Kredit poin kategori Prestasi kemahasiswaan ≥ 100.",
+                    "Masa studi ≤ 4 tahun program sarjana.",
+                    "Tidak melanggar kode etik Perguruan Tinggi."
+                ]
+            },
+            "pedoman": "Pedoman kredit poin penelitian dan PkM, dan prestasi kemahasiswaan dituangkan dalam Pedoman Syarat Perlu Predikat Kelulusan No. UC/GUI/BMA/13."
+        },
+        "pasal_11": {
+            "judul": "Program Pendidikan Profesi",
+            "kelulusan_profesi_dokter": {
+                "persyaratan": [
+                    "Telah menempuh semua mata kuliah yang ditetapkan dalam kurikulum program studi minimal 45 sks, dengan nilai minimal B.",
+                    "Telah dinyatakan lulus Uji Kompetensi Mahasiswa Program Profesi Dokter (UKMPPD) yang dinyatakan dengan sertifikat kelulusan."
+                ]
+            },
+            "predikat_kelulusan_profesi_dokter": [
+                {
+                    "IPK": "3.91-4.00",
+                    "syarat": "Memenuhi syarat predikat Summa Cum Laude (ayat 4)",
+                    "predikat": "Summa Cum Laude"
+                },
+                {
+                    "IPK": "3.76-4.00",
+                    "syarat": "Memenuhi syarat predikat Cum Laude (ayat 3)",
+                    "predikat": "Cum Laude"
+                },
+                {
+                    "IPK": "3.76-4.00",
+                    "syarat": "Tidak memenuhi syarat predikat",
+                    "predikat": "Sangat Memuaskan/Very Good"
+                },
+                {
+                    "IPK": "3.51-3.75",
+                    "syarat": "Tidak memerlukan syarat predikat",
+                    "predikat": "Sangat Memuaskan/Very Good"
+                },
+                {
+                    "IPK": "3.00-3.50",
+                    "syarat": "Tidak memerlukan syarat predikat",
+                    "predikat": "Memuaskan/Good"
+                }
+            ],
+            "syarat_predikat": {
+                "cum_laude": [
+                    "Memenuhi Kredit poin kategori Penelitian dan PkM ≥ 15.",
+                    "Masa studi ≤ 2 tahun program profesi.",
+                    "Tidak melanggar kode etik Perguruan Tinggi."
+                ],
+                "summa_cum_laude": [
+                    "Memenuhi Kredit poin kategori Penelitian dan PkM ≥ 25.",
+                    "Masa studi ≤ 2 tahun program profesi.",
+                    "Tidak melanggar kode etik Perguruan Tinggi."
+                ]
+            },
+            "pedoman": "Pedoman kredit poin penelitian dan PkM, dan prestasi kemahasiswaan dituangkan dalam Pedoman Syarat Perlu Predikat Kelulusan No. UC/GUI/BMA/13."
+        },
+        "pasal_12": {
+            "judul": "Program Magister",
+            "kelulusan_magister": {
+                "persyaratan": [
+                    "Telah menempuh semua mata kuliah yang ditetapkan dalam kurikulum program studi minimal sebesar 45 sks.",
+                    "IPK minimal 3.00.",
+                    "Bagi mahasiswa angkatan 2022 dan seterusnya, maksimum 2 (dua) mata kuliah dengan nilai minimum C.",
+                    "Tesis mendapat nilai minimal B.",
+                    "Telah menghasilkan artikel ilmiah yang diterbitkan minimal di jurnal ilmiah nasional yang terakreditasi DIKTI.",
+                    "Telah memiliki salah satu nilai tes kemampuan bahasa Inggris mengacu pada Pedoman No. UC/GUI/BAA/09 tentang Pedoman Tes Kemampuan Bahasa Inggris Sebagai Syarat Kelulusan."
+                ]
+            },
+            "predikat_kelulusan": {
+                "angkatan_2019": [
+                    {
+                        "IPK": "4.00",
+                        "predikat": "Maxima Cum Laude"
+                    },
+                    {
+                        "IPK": "3.91-3.99",
+                        "predikat": "Summa Cum Laude"
+                    },
+                    {
+                        "IPK": "3.86-3.90",
+                        "predikat": "Magna Cum Laude"
+                    },
+                    {
+                        "IPK": "3.76-3.85",
+                        "predikat": "Cum Laude"
+                    },
+                    {
+                        "IPK": "3.51-3.75",
+                        "predikat": "Sangat Memuaskan/Very Good"
+                    },
+                    {
+                        "IPK": "3.01-3.50",
+                        "predikat": "Memuaskan/Good"
+                    },
+                    {
+                        "IPK": "2.75-3.00",
+                        "predikat": "Baik/Satisfactory"
+                    }
+                ],
+                "angkatan_2020": [
+                    {
+                        "IPK": "3.91-4.00",
+                        "syarat": "Memenuhi syarat predikat Summa Cum Laude (ayat 6)",
+                        "predikat": "Summa Cum Laude"
+                    },
+                    {
+                        "IPK": "3.76-4.00",
+                        "syarat": "Memenuhi syarat predikat Cum Laude (ayat 5)",
+                        "predikat": "Cum Laude"
+                    },
+                    {
+                        "IPK": "3.76-4.00",
+                        "syarat": "Tidak memenuhi syarat predikat",
+                        "predikat": "Sangat Memuaskan/Very Good"
+                    },
+                    {
+                        "IPK": "3.51-3.75",
+                        "syarat": "Tidak memerlukan syarat predikat",
+                        "predikat": "Sangat Memuaskan/Very Good"
+                    },
+                    {
+                        "IPK": "3.00-3.50",
+                        "syarat": "Tidak memerlukan syarat predikat",
+                        "predikat": "Memuaskan/Good"
+                    }
+                ]
+            },
+            "syarat_predikat": {
+                "cum_laude": [
+                    "Memenuhi minimal 20 kredit poin dari salah satu kategori atau gabungan dari kategori kinerja bisnis, penelitian & PkM, dan prestasi kemahasiswaan.",
+                    "Masa studi ≤ 2 tahun program magister.",
+                    "Tidak melanggar kode etik Perguruan Tinggi.",
+                    "Apabila tidak memenuhi salah satu persyaratan di atas, maka predikat kelulusan yang dapat diberikan adalah sangat memuaskan."
+                ],
+                "summa_cum_laude": [
+                    "Memenuhi minimal 30 kredit poin dari salah satu kategori atau gabungan dari kategori kinerja bisnis, penelitian & PkM, dan prestasi kemahasiswaan.",
+                    "Masa studi ≤ 2 tahun program magister.",
+                    "Tidak melanggar kode etik Perguruan Tinggi.",
+                    "Apabila tidak dapat memenuhi minimal kredit poin, maka predikat kelulusan yang dapat diberikan adalah sangat memuaskan."
+                ]
+            },
+            "pedoman": "Pedoman kredit poin penelitian dan PkM, dan prestasi kemahasiswaan dituangkan dalam Pedoman Syarat Perlu Predikat Kelulusan No. UC/GUI/BMA/13.",
+            "rpl_kelulusan": {
+                "kategori": [
+                    {
+                        "IPK": "3.51-4.00",
+                        "predikat": "Sangat Memuaskan"
+                    },
+                    {
+                        "IPK": "3.00-3.50",
+                        "predikat": "Memuaskan"
+                    }
+                ]
+            }
+        },
+        "pasal_13": {
+            "judul": "Program Doktor",
+            "kelulusan_doktor": {
+                "persyaratan": [
+                    "Telah menempuh semua mata kuliah yang ditetapkan dalam kurikulum program studi minimal sebesar 42 sks.",
+                    "IPK minimal 3.25 dengan nilai minimal B.",
+                    "Disertasi mendapat nilai minimal B.",
+                    "Telah menghasilkan artikel ilmiah yang diterbitkan minimal di jurnal ilmiah nasional yang terakreditasi DIKTI.",
+                    "Telah memiliki salah satu nilai tes kemampuan bahasa Inggris mengacu pada Pedoman No. UC/GUI/BAA/09 tentang Pedoman Tes Kemampuan Bahasa Inggris Sebagai Syarat Kelulusan."
+                ]
+            },
+            "predikat_kelulusan": [
+                {
+                    "IPK": "3.91-4.00",
+                    "syarat": "Memenuhi syarat predikat Summa Cum Laude (ayat 4)",
+                    "predikat": "Summa Cum Laude"
+                },
+                {
+                    "IPK": "3.76-4.00",
+                    "syarat": "Memenuhi syarat predikat Cum Laude (ayat 3)",
+                    "predikat": "Cum Laude"
+                },
+                {
+                    "IPK": "3.76-4.00",
+                    "syarat": "Tidak memenuhi syarat predikat",
+                    "predikat": "Sangat Memuaskan/Very Good"
+                },
+                {
+                    "IPK": "3.51-3.75",
+                    "syarat": "Tidak memerlukan syarat predikat",
+                    "predikat": "Sangat Memuaskan/Very Good"
+                },
+                {
+                    "IPK": "3.25-3.50",
+                    "syarat": "Tidak memerlukan syarat predikat",
+                    "predikat": "Memuaskan/Good"
+                }
+            ],
+            "syarat_predikat": {
+                "cum_laude": [
+                    "Memenuhi minimal 10 kredit poin dari salah satu kategori atau gabungan dari kategori kinerja bisnis, penelitian & PkM, dan prestasi kemahasiswaan.",
+                    "Masa studi ≤ 3 tahun untuk program doktor.",
+                    "Tidak melanggar kode etik Perguruan Tinggi.",
+                    "Apabila tidak memenuhi salah satu persyaratan di atas, maka predikat kelulusan yang dapat diberikan adalah sangat memuaskan."
+                ],
+                "summa_cum_laude": [
+                    "Memenuhi minimal 15 kredit poin dari salah satu kategori atau gabungan dari kategori kinerja bisnis, penelitian & PkM, dan prestasi kemahasiswaan.",
+                    "Masa studi ≤ 3 tahun untuk program doktor.",
+                    "Tidak melanggar kode etik Perguruan Tinggi.",
+                    "Apabila tidak dapat memenuhi minimal kredit poin, maka predikat kelulusan yang dapat diberikan adalah sangat memuaskan."
+                ]
+            },
+            "pedoman": "Pedoman kredit poin penelitian dan PkM, dan Prestasi Kemahasiswaan dituangkan dalam Pedoman Syarat Perlu Predikat Kelulusan No. UC/GUI/BMA/13."
+        },
+        "pasal_14": {
+            "judul": "Perhitungan Predikat Kelulusan dan Dokumen Kelulusan",
+            "perhitungan_ipk": {
+                "rumus": "IPK = Σ(Kj x Nj) / ΣKj",
+                "keterangan": {
+                    "Kj": "Bobot sks semua mata kuliah yang telah diambil sampai semester tersebut, dengan ketentuan mata kuliah yang diulang hanya dihitung satu kali.",
+                    "Nj": "Nilai numerik hasil evaluasi masing‐masing mata kuliah."
+                }
+            },
+            "dokumen_kelulusan": [
+                "Ijazah",
+                "Transkrip nilai",
+                "Surat Keterangan Pendamping Ijazah (SKPI)",
+                "Sertifikat Profesi (untuk Program Profesi)"
+            ]
+        },
+        "pasal_15": {
+            "judul": "Cuti Studi",
+            "ketentuan": [
+                "Semua mahasiswa diperbolehkan mengajukan cuti studi setelah mengikuti kuliah minimal 2 (dua) semester, kecuali memiliki alasan yang sangat esensial dengan menunjukkan bukti pendukung.",
+                "Cuti diberikan maksimal dua semester selama studi di UC dan tidak dapat diambil berturut-turut. Khusus untuk mahasiswa program studi sarjana kedokteran, cuti studi dapat diambil dua semester berturut-turut.",
+                "Permohonan cuti diajukan kepada Kaprodi paling lambat 2 (dua) minggu sebelum kuliah efektif dimulai.",
+                "Masa cuti tidak diperhitungkan dalam masa studi.",
+                "Mahasiswa dapat mengajukan proses aktif kembali paling lambat 2 (dua) minggu sebelum kuliah efektif dimulai."
+            ]
+        },
+        "pasal_16": {
+            "judul": "Tidak Aktif Studi (Non-Aktif)",
+            "ketentuan": [
+                "Mahasiswa Tidak Aktif Studi atau disebut dengan status Non-Aktif.",
+                "Mahasiswa dapat dinyatakan Tidak Aktif Studi apabila:",
+                "Tidak melakukan KRS pada periode berjalan tanpa pemberitahuan.",
+                "Terkena sanksi akademik."
+            ],
+            "sanksi": {
+                "penjelasan": [
+                    "Mahasiswa yang tidak melakukan KRS selama 2 (dua) semester berturut-turut tanpa pemberitahuan dapat dikenakan sanksi dikeluarkan dengan status Putus Studi.",
+                    "Sanksi akademik tertentu dapat berakibat merubah status mahasiswa secara paksa menjadi Tidak Aktif Studi.",
+                    "Mahasiswa yang terkena sanksi akademik karena melanggar peraturan atau kode etik universitas akan mendapatkan surat keputusan dari Wakil Rektor Bidang Akademik.",
+                    "Sanksi akademik dapat dilihat pada peraturan akademik dan/atau Peraturan Tata Laku Mahasiswa."
+                ],
+                "status": "Status tidak aktif tanpa izin diperhitungkan sebagai masa studi."
+            },
+            "aktif_kembali": "Mahasiswa yang akan aktif kembali wajib mengajukan permohonan aktif kembali dan menyelesaikan kewajiban administrasi keuangan dua minggu sebelum periode pengisian KRS."
+        },
+        "pasal_17": {
+            "judul": "Berhenti Studi (Resign)",
+            "ketentuan": [
+                "Setiap mahasiswa yang menjalani pendidikan di UC mempunyai hak untuk dapat mengajukan permohonan berhenti studi.",
+                "Berhenti studi adalah mahasiswa dengan kemauan dan keinginannya sendiri mengajukan untuk berhenti studi.",
+                "Berhenti studi ditetapkan melalui surat keputusan Wakil Rektor Bidang Akademik."
+            ],
+            "persyaratan": {
+                "syarat": [
+                    "Administrasi perpustakaan, dinyatakan bebas pustaka.",
+                    "Administrasi perkuliahan, kelengkapan dokumen permohonan berhenti studi.",
+                    "Administrasi keuangan, tidak ada tanggungan biaya perkuliahan."
+                ],
+                "hak": "Mahasiswa yang berhenti studi berhak mendapatkan surat keterangan beserta transkrip nilai selama studi di UC, kecuali bagi mahasiswa yang mengundurkan diri karena pelanggaran peraturan universitas atau masalah hukum."
+            }
+        },
+        "pasal_18": {
+            "judul": "Putus Studi (Drop Out)",
+            "ketentuan": [
+                "Mahasiswa dapat dinyatakan Putus Studi atau dapat disebut dengan status Drop Out (DO).",
+                "Mahasiswa yang pada akhir 4 semester pertama belum dapat mengumpulkan sekurang-kurangnya 40 sks dan atau dengan IPK kurang dari 2,00 untuk program sarjana dapat dinyatakan Putus Studi.",
+                "Belum menyelesaikan seluruh beban studi setelah masa studi yang diizinkan habis.",
+                "Tidak lulus dua kali pada satu tingkat RKT (Rapat Kenaikan Tingkat) untuk mahasiswa program studi Sarjana Kedokteran.",
+                "Tidak mengisi KRS dalam 2 (dua) semester berturut-turut tanpa pemberitahuan resmi.",
+                "Mendapat sanksi akademik karena suatu pelanggaran peraturan Universitas."
+            ],
+            "prosedur": {
+                "peringatan": [
+                    "Surat Peringatan 1 (SP-1): dilakukan oleh Ketua Program Studi, untuk mahasiswa yang pada akhir semester II mendapat IPS berturut-turut ≤ 2.00 (semester I dan II).",
+                    "Surat Peringatan 2 (SP-2): dilakukan oleh Dekan, untuk mahasiswa yang pada akhir semester III mendapat IPS berturut-turut ≤ 2.00 (semester I, II, dan III).",
+                    "Surat Keputusan Putus Studi: diterbitkan oleh Wakil Rektor Bidang Akademik atas rekomendasi Dekan, untuk mahasiswa yang pada akhir semester IV mendapat IPS berturut-turut ≤ 2.00."
+                ],
+                "status": {
+                    "keterangan": [
+                        "Mahasiswa yang lulus minimal 36 sks dinyatakan keluar dan berhak mendapatkan surat keterangan berikut transkrip nilai setelah menyelesaikan administrasi keuangan.",
+                        "Mahasiswa yang lulus kurang dari 36 sks dinyatakan Drop Out (DO) dan tidak berhak mendapatkan surat keterangan."
+                    ]
+                }
+            }
+        },
+        "pasal_19": {
+            "judul": "Asisten Mahasiswa",
+            "ketentuan": [
+                "Seluruh mahasiswa aktif dapat mendaftarkan diri untuk menjadi asisten mahasiswa.",
+                "Asisten mahasiswa merupakan mahasiswa aktif yang masih menjalankan studi, namun telah memenuhi kriteria untuk menjadi asisten mahasiswa.",
+                "Asisten mahasiswa bertugas membantu dosen dalam melakukan pengajaran.",
+                "Asisten mahasiswa minimal telah menempuh 36 sks lulus.",
+                "IPK minimal 3.50.",
+                "Nilai mata kuliah yang akan diampu minimal A-."
+            ]
+        },
+        "pasal_20": {
+            "judul": "Kode Etik Akademik",
+            "ketentuan": [
+                "Semua mahasiswa UC wajib menjaga dan tunduk pada Peraturan Tata Laku Mahasiswa Universitas Ciputra Surabaya No. UC/REG/REC/02 dan Kode Etik Universitas Ciputra Surabaya No. UC/PER/REC/03.",
+                "Mahasiswa yang melakukan pelanggaran terhadap peraturan-peraturan universitas dapat diberikan sanksi akademik berupa pemberhentian studi sementara atau pemberhentian studi. Surat diterbitkan oleh Wakil Rektor Bidang Akademik sesuai dengan keputusan Rapat Kode Etik.",
+                "Tata cara penyelesaian pelanggaran kode etik akademik diatur dalam peraturan tersendiri."
+            ]
+        },
+        "pasal_21": {
+            "judul": "Pengganti Dokumen Kelulusan",
+            "ketentuan": [
+                "Dokumen kelulusan yang hilang, rusak, dan/atau musnah akan digantikan oleh Surat Keterangan Pengganti Dokumen Kelulusan.",
+                "Dokumen Kelulusan yang dimaksud adalah Dokumen Kelulusan sebagaimana dijelaskan dalam Pasal 13 ayat (2).",
+                "Surat Keterangan Pengganti Dokumen Kelulusan yang hilang, rusak, dan/musnah diatur lebih lanjut dalam Pedoman Surat Keterangan Pengganti Dokumen Kelulusan."
+            ]
+        },
+        "pasal_22": {
+            "judul": "Prosesi Akademik",
+            "ketentuan": [
+                "Prosesi Akademik diselenggarakan sesuai dengan kebutuhan akademik yang berlangsung di Universitas Ciputra Surabaya.",
+                "Prosesi akademik yang dimaksud, antara lain: Wisuda, Janji Dokter Muda, Sumpah Dokter.",
+                "Wisuda dilaksanakan minimal 1 (satu) kali dalam satu tahun akademik.",
+                "Janji Dokter Muda dilaksanakan sesudah mahasiswa Fakultas Kedokteran melakukan yudisium dan sebelum masuk program pendidikan profesi dokter.",
+                "Sumpah Dokter dilaksanakan setelah mahasiswa profesi dokter dinyatakan lulus UKMPPD."
+            ]
+        },
+        "pasal_23": {
+            "judul": "Ketentuan Peralihan",
+            "ketentuan": [
+                "Segala keputusan dan kebijakan yang telah dibuat sebelum peraturan akademik ini berlaku, masih tetap berlaku sepanjang tidak bertentangan dengan peraturan akademik ini.",
+                "Peraturan Rektor tentang Peraturan Akademik Universitas Ciputra Surabaya ini berlaku bagi mahasiswa mulai tahun akademik 2019/2020 sampai dengan diterbitkannya kembali peraturan akademik yang terbaru.",
+                "Peraturan Rektor No. UC/REG/REC/01 Rev. 00 tentang Peraturan Akademik Universitas Ciputra Surabaya dan Pedoman Predikat Kelulusan No. UC/GUI/BAA/26 Rev. 00 dicabut dan dinyatakan tidak berlaku sejak diundangkannya Peraturan Rektor No. UC/REG/REC/01 Rev. 01 tentang Peraturan Akademik Universitas Ciputra Surabaya ini.",
+                "Pemberlakuan peraturan akademik ini sesuai dengan asas perundang-undangan yang berlaku."
+            ]
+        },
+        "pasal_24": {
+            "judul": "Penutup",
+            "ketentuan": [
+                "Peraturan Rektor No. UC/REG/REC/01 Rev. 01 tentang Peraturan Akademik Universitas Ciputra Surabaya berlaku sejak tanggal ditetapkan.",
+                "Ditetapkan di: Surabaya",
+                "Pada Tanggal: 31 Agustus 2022",
+                "Rektor Universitas Ciputra Surabaya: Ir. Yohannes Somawiharja, M.Sc., NIP. 20050387"
+            ],
+            "tembusan": [
+                "Para Wakil Rektor",
+                "Para Dekan dan Ketua Program Studi",
+                "Para HoD dan Arsip"
+            ]
         }
     }
 }

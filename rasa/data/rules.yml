@@ -1,11 +1,61 @@
-version: "3.0"
-stories:
-- story: user asks about faculties
-  steps:
-  - intent: ask_about_faculties
-  - action: action_fetch_knowledge_base
+version: "3.1"
 
-- story: user asks about registration
-  steps:
-  - intent: ask_registration
-  - action: action_fetch_knowledge_base
+rules:
+  - rule: Respond to ask_about_university
+    steps:
+      - intent: ask_about_university
+      - action: action_fetch_knowledge_base
+
+  - rule: Respond to ask_about_faculties
+    steps:
+      - intent: ask_about_faculties
+      - action: action_fetch_knowledge_base
+
+  - rule: Respond to ask_about_tuition
+    steps:
+      - intent: ask_about_tuition
+      - action: action_fetch_knowledge_base
+
+  - rule: Respond to ask_registration
+    steps:
+      - intent: ask_registration
+      - action: action_fetch_knowledge_base
+
+  - rule: Respond to ask_about_scholarship
+    steps:
+      - intent: ask_about_scholarship
+      - action: action_fetch_knowledge_base
+
+  - rule: Respond to ask_about_yucca
+    steps:
+      - intent: ask_about_yucca
+      - action: action_fetch_knowledge_base
+
+  - rule: Respond to ask_about_life_on_campus
+    steps:
+      - intent: ask_about_life_on_campus
+      - action: action_fetch_knowledge_base
+
+  - rule: Respond to ask_contact_information
+    steps:
+      - intent: ask_contact_information
+      - action: action_fetch_knowledge_base
+
+  - rule: Respond to ask_about_academic_process
+    steps:
+      - intent: ask_about_academic_process
+      - action: action_fetch_knowledge_base
+
+  - rule: Respond to ask_about_graduation_and_career
+    steps:
+      - intent: ask_about_graduation_and_career
+      - action: action_fetch_knowledge_base
+
+  - rule: Respond to ask_about_university_policy
+    steps:
+      - intent: ask_about_university_policy
+      - action: action_fetch_knowledge_base
+
+  - rule: Default fallback
+    steps:
+      - action: action_default_fallback

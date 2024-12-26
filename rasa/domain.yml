@@ -1,16 +1,44 @@
-version: "3.0"
+version: "3.1"
 
 intents:
+  - ask_about_university
   - ask_about_faculties
+  - ask_about_tuition
   - ask_registration
+  - ask_about_scholarship
+  - ask_about_yucca
+  - ask_about_life_on_campus
+  - ask_contact_information
+  - ask_about_academic_process
+  - ask_about_graduation_and_career
+  - ask_about_university_policy
+
+entities:
+  - program_studi
+  - fakultas
+
+slots:
+  program_studi:
+    type: text
+    influence_conversation: false
+    mappings:
+      - type: from_entity
+        entity: program_studi
+
+  fakultas:
+    type: text
+    influence_conversation: false
+    mappings:
+      - type: from_entity
+        entity: fakultas
 
 responses:
-  utter_iamabot:
-    - text: "Saya adalah asisten virtual Universitas Ciputra. Bagaimana saya bisa membantu Anda?"
-  utter_faculties:
-    - text: "Berikut adalah daftar fakultas yang tersedia di Universitas Ciputra."
-  utter_registration:
-    - text: "Proses pendaftaran meliputi pembelian voucher, mengisi formulir, dan mengikuti seleksi masuk."
+  utter_default:
+    - text: "Maaf, saya tidak memahami pertanyaan Anda. Bisakah Anda mengulanginya?"
 
 actions:
   - action_fetch_knowledge_base
+
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true

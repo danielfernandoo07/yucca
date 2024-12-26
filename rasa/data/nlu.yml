@@ -1,12 +1,80 @@
-version: "3.0"
+version: "3.1"
+
 nlu:
-- intent: ask_about_faculties
-  examples: |
-    - Apa saja fakultas yang ada di Universitas Ciputra?
-    - Fakultas apa saja yang tersedia?
-    - Bisa beri tahu daftar fakultas?
-- intent: ask_registration
-  examples: |
-    - Bagaimana cara mendaftar di Universitas Ciputra?
-    - Apa langkah-langkah pendaftaran?
-    - Bisakah saya mengetahui prosedur pendaftaran?
+  - intent: ask_about_university
+    examples: |
+      - Apa itu Universitas Ciputra?
+      - Dimana lokasi Universitas Ciputra?
+      - Apa visi Universitas Ciputra?
+      - Beri tahu tentang universitas ini.
+      - Apa keunikan Universitas Ciputra?
+
+  - intent: ask_about_faculties
+    examples: |
+      - Fakultas apa saja yang ada di Universitas Ciputra?
+      - Apa saja fakultas di sini?
+      - Fakultas yang ada apa saja?
+
+  - intent: ask_about_tuition
+    examples: |
+      - Berapa biaya kuliah di [Kedokteran](program_studi)?
+      - Apa biaya kuliah untuk [Informatika](program_studi)?
+      - Jelaskan biaya kuliah di jurusan [Desain Komunikasi Visual](program_studi).
+      - Berapa DPP untuk program studi [Manajemen Bisnis](program_studi)?
+
+  - intent: ask_registration
+    examples: |
+      - Bagaimana cara mendaftar?
+      - Apa syarat pendaftaran?
+      - Jelaskan langkah pendaftaran.
+      - Apa jalur pendaftaran yang tersedia?
+
+  - intent: ask_about_yucca
+    examples: |
+      - Siapa itu Yucca?
+      - Apa itu Yucca?
+      - Ceritakan tentang maskot Universitas Ciputra.
+      - Apa filosofi Yucca?
+
+  - intent: ask_about_life_on_campus
+    examples: |
+      - Apa saja fasilitas di Universitas Ciputra?
+      - Bagaimana kehidupan kampus di sini?
+      - Apakah ada kegiatan ekstrakurikuler?
+      - Apa program pertukaran pelajar yang tersedia?
+
+  - intent: ask_about_scholarship
+    examples: |
+      - Apakah Universitas Ciputra menawarkan beasiswa?
+      - Bagaimana cara mendaftar beasiswa?
+      - Apa syarat mendapatkan beasiswa?
+      - Beasiswa ini berlaku untuk program studi apa saja?
+
+  - intent: ask_academic_process
+    examples: |
+      - Apa itu sistem kredit semester?
+      - Berapa lama durasi studi untuk program sarjana?
+      - Bagaimana cara menghitung IPK?
+      - Jelaskan apa itu MBKM.
+      - Bagaimana cara mengubah KRS?
+
+  - intent: ask_graduation_and_career
+    examples: |
+      - Apa saja kualifikasi lulusan Universitas Ciputra?
+      - Apakah lulusan Universitas Ciputra mudah mendapatkan pekerjaan?
+      - Apa itu sertifikat profesi P1?
+      - Apakah ada program magang?
+
+  - intent: ask_university_policy
+    examples: |
+      - Bagaimana kebijakan pengembalian biaya?
+      - Apa yang terjadi jika saya tidak hadir kuliah selama dua minggu?
+      - Bagaimana proses evaluasi hasil belajar mahasiswa?
+      - Apa saja peraturan akademik yang berlaku?
+
+  - intent: ask_contact_information
+    examples: |
+      - Bagaimana cara menghubungi Universitas Ciputra?
+      - Apa nomor telepon Universitas Ciputra?
+      - Apakah Universitas Ciputra punya akun media sosial?
+      - Apa website resmi universitas ini?

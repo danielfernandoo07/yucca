@@ -1,11 +1,57 @@
-version: "3.0"
-stories:
-- story: user asks about faculties
-  steps:
-  - intent: ask_about_faculties
-  - action: action_fetch_knowledge_base
+version: "3.1"
 
-- story: user asks about registration
-  steps:
-  - intent: ask_registration
-  - action: action_fetch_knowledge_base
+stories:
+  - story: User asks about university
+    steps:
+      - intent: ask_about_university
+      - action: action_fetch_knowledge_base
+
+  - story: User asks about faculties
+    steps:
+      - intent: ask_about_faculties
+      - action: action_fetch_knowledge_base
+
+  - story: User asks about tuition
+    steps:
+      - intent: ask_about_tuition
+      - action: action_fetch_knowledge_base
+
+  - story: User asks about registration
+    steps:
+      - intent: ask_registration
+      - action: action_fetch_knowledge_base
+
+  - story: User asks about scholarship
+    steps:
+      - intent: ask_about_scholarship
+      - action: action_fetch_knowledge_base
+
+  - story: User asks about Yucca
+    steps:
+      - intent: ask_about_yucca
+      - action: action_fetch_knowledge_base
+
+  - story: User asks about campus life
+    steps:
+      - intent: ask_about_life_on_campus
+      - action: action_fetch_knowledge_base
+
+  - story: User asks for contact information
+    steps:
+      - intent: ask_contact_information
+      - action: action_fetch_knowledge_base
+
+  - story: User asks about academic process
+    steps:
+      - intent: ask_about_academic_process
+      - action: action_fetch_knowledge_base
+
+  - story: User asks about graduation and career
+    steps:
+      - intent: ask_about_graduation_and_career
+      - action: action_fetch_knowledge_base
+
+  - story: User asks about university policy
+    steps:
+      - intent: ask_about_university_policy
+      - action: action_fetch_knowledge_base

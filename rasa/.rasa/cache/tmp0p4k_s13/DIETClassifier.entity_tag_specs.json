@@ -1,0 +1,20 @@
+[
+  {
+    "tag_name": "entity",
+    "ids_to_tags": {
+      "1": "B-program_studi",
+      "2": "I-program_studi",
+      "3": "L-program_studi",
+      "4": "U-program_studi",
+      "0": "O"
+    },
+    "tags_to_ids": {
+      "B-program_studi": 1,
+      "I-program_studi": 2,
+      "L-program_studi": 3,
+      "U-program_studi": 4,
+      "O": 0
+    },
+    "num_tags": 5
+  }
+]
