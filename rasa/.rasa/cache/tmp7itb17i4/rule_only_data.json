@@ -1,0 +1,7 @@
+{
+  "rule_only_slots": [
+    "kode_program_studi",
+    "kode_fakultas"
+  ],
+  "rule_only_loops": []
+}

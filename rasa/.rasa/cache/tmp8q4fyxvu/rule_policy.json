@@ -1,0 +1,40 @@
+{
+  "lookup": {
+    "rules": {
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"ask_about_role\"}}]": "utter_about_role",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"ask_about_role\"}}, {\"prev_action\": {\"action_name\": \"utter_about_role\"}, \"user\": {\"intent\": \"ask_about_role\"}}]": "action_listen",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"ask_about_yucca_character\"}}]": "utter_about_yucca_character",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"ask_about_yucca_character\"}}, {\"prev_action\": {\"action_name\": \"utter_about_yucca_character\"}, \"user\": {\"intent\": \"ask_about_yucca_character\"}}]": "action_listen",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"ask_about_yucca_values\"}}]": "utter_about_yucca_values",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"ask_about_yucca_values\"}}, {\"prev_action\": {\"action_name\": \"utter_about_yucca_values\"}, \"user\": {\"intent\": \"ask_about_yucca_values\"}}]": "action_listen",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"ask_about_ethics\"}}]": "utter_about_ethics",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"ask_about_ethics\"}}, {\"prev_action\": {\"action_name\": \"utter_about_ethics\"}, \"user\": {\"intent\": \"ask_about_ethics\"}}]": "action_listen",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"out_of_scope\"}}]": "action_handle_out_of_scope",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"out_of_scope\"}}, {\"prev_action\": {\"action_name\": \"action_handle_out_of_scope\"}, \"user\": {\"intent\": \"out_of_scope\"}}]": "action_listen",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"ask_about_capabilities\"}}]": "utter_about_capabilities",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"ask_about_capabilities\"}}, {\"prev_action\": {\"action_name\": \"utter_about_capabilities\"}, \"user\": {\"intent\": \"ask_about_capabilities\"}}]": "action_listen",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"ask_about_adaptability\"}}]": "utter_about_adaptability",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"ask_about_adaptability\"}}, {\"prev_action\": {\"action_name\": \"utter_about_adaptability\"}, \"user\": {\"intent\": \"ask_about_adaptability\"}}]": "action_listen",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"ask_about_university_contact\"}}]": "utter_about_university_contact",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"ask_about_university_contact\"}}, {\"prev_action\": {\"action_name\": \"utter_about_university_contact\"}, \"user\": {\"intent\": \"ask_about_university_contact\"}}]": "action_listen",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"ask_about_yucca_symbolism\"}}]": "utter_about_yucca_symbolism",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"ask_about_yucca_symbolism\"}}, {\"prev_action\": {\"action_name\": \"utter_about_yucca_symbolism\"}, \"user\": {\"intent\": \"ask_about_yucca_symbolism\"}}]": "action_listen",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"ask_about_limitations\"}}]": "utter_about_limitations",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"ask_about_limitations\"}}, {\"prev_action\": {\"action_name\": \"utter_about_limitations\"}, \"user\": {\"intent\": \"ask_about_limitations\"}}]": "action_listen",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"ask_about_university_general\"}}]": "utter_about_university_general",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"ask_about_university_general\"}}, {\"prev_action\": {\"action_name\": \"utter_about_university_general\"}, \"user\": {\"intent\": \"ask_about_university_general\"}}]": "action_listen",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"ask_about_yucca_connection\"}}]": "utter_about_yucca_connection",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"ask_about_yucca_connection\"}}, {\"prev_action\": {\"action_name\": \"utter_about_yucca_connection\"}, \"user\": {\"intent\": \"ask_about_yucca_connection\"}}]": "action_listen",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"ask_about_specific_social_media\"}}]": "action_provide_social_media",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"ask_about_specific_social_media\"}}, {\"prev_action\": {\"action_name\": \"action_provide_social_media\"}, \"user\": {\"intent\": \"ask_about_specific_social_media\"}}]": "action_listen"
+    },
+    "rule_only_slots": [],
+    "rule_only_loops": [],
+    "rules_for_loop_unhappy_path": {},
+    "rules_not_in_stories": [
+      "predicting default action with intent back",
+      "predicting default action with intent session_start",
+      "predicting default action with intent restart"
+    ]
+  }
+}

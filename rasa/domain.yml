@@ -1,44 +1,215 @@
 version: "3.1"
 
 intents:
-  - ask_about_university
-  - ask_about_faculties
-  - ask_about_tuition
-  - ask_registration
-  - ask_about_scholarship
-  - ask_about_yucca
-  - ask_about_life_on_campus
-  - ask_contact_information
-  - ask_about_academic_process
-  - ask_about_graduation_and_career
-  - ask_about_university_policy
+- ask_about_role
+- ask_about_tone
+- ask_about_capabilities
+- ask_about_limitations
+- ask_about_adaptability
+- ask_about_ethics
+- ask_about_yucca_character
+- ask_about_yucca_values
+- ask_about_value_symbol
+- ask_about_yucca_symbolism
+- ask_about_mission
+- ask_about_yucca_connection
+- ask_about_university_general
+- ask_about_university_address
+- ask_about_university_website
+- ask_about_university_phone
+- ask_about_university_contact
+- ask_about_specific_social_media
+- ask_about_all_faculties
+- ask_about_specific_faculty
+- ask_about_all_programs
+- ask_about_specific_program
+- ask_about_specific_faculty_programs
+- ask_about_program_requirements
+- ask_about_program_selection
+- ask_about_program_fees
 
 entities:
-  - program_studi
-  - fakultas
+- platform
+- value
+- kode_fakultas
+- kode_program_studi
 
 slots:
-  program_studi:
+  platform:
     type: text
-    influence_conversation: false
+    influence_conversation: true
     mappings:
-      - type: from_entity
-        entity: program_studi
+    - type: from_entity
+      entity: platform
 
-  fakultas:
+  value:
+    type: text
+    influence_conversation: true
+    mappings:
+    - type: from_entity
+      entity: value
+
+  address:
     type: text
     influence_conversation: false
     mappings:
-      - type: from_entity
-        entity: fakultas
+    - type: from_text
+
+  website:
+    type: text
+    influence_conversation: false
+    mappings:
+    - type: from_text
+
+  phone:
+    type: text
+    influence_conversation: false
+    mappings:
+    - type: from_text
+
+  kode_fakultas:
+    type: text
+    influence_conversation: true
+    mappings:
+    - type: from_entity
+      entity: kode_fakultas
+
+  kode_program_studi:
+    type: text
+    influence_conversation: true
+    mappings:
+    - type: from_entity
+      entity: kode_program_studi
 
 responses:
-  utter_default:
-    - text: "Maaf, saya tidak memahami pertanyaan Anda. Bisakah Anda mengulanginya?"
+  utter_about_role:
+  - text: "Yucca AI adalah asisten virtual yang dirancang untuk memberikan informasi akurat dan berguna tentang Universitas Ciputra."
+
+  utter_about_capabilities:
+  - text: |
+      Kemampuan Yucca AI meliputi:
+      - Menjawab pertanyaan tentang program akademik, penerimaan, kehidupan kampus, dan acara universitas.
+      - Memberikan panduan tentang kebijakan dan sumber daya universitas.
+
+  utter_about_limitations:
+  - text: |
+      Yucca AI memiliki batasan:
+      - Tidak memberikan saran pribadi atau hukum.
+      - Tidak mengakses informasi rahasia atau sensitif.
+      - Hanya beroperasi berdasarkan data yang tersedia di knowledge base.
+
+  utter_about_adaptability:
+  - text: |
+      Jika pertanyaan berada di luar cakupan, Yucca AI akan mengarahkan Anda ke sumber daya atau kontak yang sesuai untuk mendapatkan bantuan lebih lanjut.
+
+  utter_about_ethics:
+  - text: |
+      Yucca AI berkomitmen untuk:
+      - Memberikan jawaban yang sopan, akurat, dan tidak bias.
+      - Menyampaikan informasi dengan bahasa yang sederhana dan mudah dipahami oleh semua pengguna.
+
+  utter_out_of_scope:
+  - text: "Maaf, pertanyaan Anda berada di luar cakupan saya. Silakan hubungi pihak universitas untuk informasi lebih lanjut."
+
+  utter_about_yucca_character:
+  - text: |
+      Yucca adalah seekor unicorn lucu yang berpendirian teguh. Ia tidak mudah menyerah dan mudah beradaptasi dalam situasi sulit.
+      Yucca memiliki tanduk dan kekuatan magis, tumbuh bersama Chap, Chip, dan Chup—tiga anak ayam bersaudara yang melambangkan nilai-nilai Integrity, Professionalism, dan Entrepreneurship Universitas Ciputra.
+
+  utter_about_yucca_values:
+  - text: |
+      Nilai-nilai yang dilambangkan oleh Yucca adalah:
+      - Integritas: Dilambangkan oleh Chap.
+      - Profesionalisme: Dilambangkan oleh Chip.
+      - Kewirausahaan: Dilambangkan oleh Chup.
+
+  utter_about_yucca_symbolism:
+  - text: |
+      Nama Yucca terinspirasi dari tanaman Yucca yang hidup di daerah gersang Amerika Selatan. Nilainya meliputi:
+      - Melambangkan kekuatan, ketahanan, dan siklus alami kehidupan.
+      - Mengajarkan nilai pantang menyerah dan kemampuan tumbuh subur dalam kesukaran.
+      - Mengingatkan manusia untuk hidup harmonis dengan alam.
+
+  utter_about_yucca_connection:
+  - text: |
+      Yucca adalah akronim dari "UNIversitas Ciputra fOR eNtrepreneurship" dan melambangkan semangat UC dalam membangun generasi yang tangguh, profesional, dan berintegritas, sambil menghormati lingkungan dan nilai-nilai kehidupan.
+
+  utter_about_university_general:
+  - text: |
+      Universitas Ciputra terletak di CitraLand CBD Boulevard, Made, Kec. Sambikerep, Surabaya, Jawa Timur 60219.
+      Website: [Universitas Ciputra](https://www.ciputra.ac.id/).
+
+  utter_about_university_address:
+  - text: "Alamat Universitas Ciputra adalah CitraLand CBD Boulevard, Made, Kec. Sambikerep, Surabaya, Jawa Timur 60219."
+
+  utter_about_university_website:
+  - text: "Website resmi Universitas Ciputra adalah [www.ciputra.ac.id](https://www.ciputra.ac.id/)."
+
+  utter_about_university_phone:
+  - text: "Nomor telepon Universitas Ciputra adalah 082 234 941 824."
+
+  utter_about_university_contact:
+  - text: |
+      Anda dapat menghubungi Universitas Ciputra melalui:
+      - Telepon: 082 234 941 824
+      - Instagram: @universitasciputra
+      - Facebook: Universitas Ciputra
+      - TikTok: Universitas Ciputra
+      - YouTube: Universitas Ciputra
+
+  utter_about_all_faculties:
+  - text: |
+      Berikut adalah daftar fakultas di Universitas Ciputra:
+        - Fakultas Bisnis dan Manajemen (SBM)
+        - Fakultas Industri Kreatif (SCI)
+        - Fakultas Pariwisata (SoT)
+        - Fakultas Teknologi Informasi (SIFT)
+        - Fakultas Kedokteran (SoM)
+        - Fakultas Kedokteran Gigi (SDM)
+        - Fakultas Psikologi (SoP)
+        - Fakultas Ilmu Komunikasi & Media Bisnis (SCM)
+
+  utter_all_programs:
+  - text: |
+      Universitas Ciputra memiliki program studi berikut:
+      - Kedokteran (MED-RC)
+      - Kedokteran (English) (MED-IC)
+      - Kedokteran Gigi (DEM)
+      - Manajemen Bisnis Internasional - Kelas Reguler (IBM-RC)
+      - Manajemen Bisnis Internasional - Kelas Internasional (IBM-IC)
+      - Akuntansi (ACC)
+      - Desain Komunikasi Visual (VCD)
+      - Arsitektur Interior (INA)
+      - Arsitektur & Properti (ARS)
+      - Desain Fashion & Bisnis (FDB)
+      - Bisnis Perhotelan, Pariwisata & Event (HTEB)
+      - Bisnis Kuliner (CB)
+      - Teknologi Pangan (FTP)
+      - Informatika - Kecerdasan Buatan (IMT-AI)
+      - Informatika - Pengembangan Aplikasi Full Stack (IMT-FSD)
+      - Sistem Informasi Bisnis - Ilmu Data (ISB-DS)
+      - Sistem Informasi Bisnis - Sistem Perusahaan (ISB-ES)
+      - Psikologi (PSY)
+      - Humas Digital (DPR)
+      - Sinematografi & Konten Digital (CDC)
+
+  utter_program_not_found:
+  - text: "Maaf, saya tidak dapat menemukan informasi tentang program studi tersebut."
+
+  utter_faculty_not_found:
+  - text: "Maaf, saya tidak dapat menemukan informasi tentang fakultas tersebut."
 
 actions:
-  - action_fetch_knowledge_base
-
-session_config:
-  session_expiration_time: 60
-  carry_over_slots_to_new_session: true
+- action_handle_out_of_scope
+- action_fetch_value_lambang
+- action_fetch_mission
+- action_provide_university_contact
+- action_provide_social_media
+- action_provide_university_info
+- action_provide_faculty_details
+- action_provide_all_programs
+- action_provide_program_details
+- action_provide_faculty_programs
+- action_provide_program_requirements
+- action_provide_program_selection
+- action_provide_program_fees

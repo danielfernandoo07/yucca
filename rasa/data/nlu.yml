@@ -1,80 +1,159 @@
 version: "3.1"
 
 nlu:
-  - intent: ask_about_university
-    examples: |
-      - Apa itu Universitas Ciputra?
-      - Dimana lokasi Universitas Ciputra?
-      - Apa visi Universitas Ciputra?
-      - Beri tahu tentang universitas ini.
-      - Apa keunikan Universitas Ciputra?
+- intent: ask_about_role
+  examples: |
+    - Apa itu Yucca AI?
+    - Apa peran Yucca AI?
+    - Jelaskan tugas Yucca AI.
+    - Bagaimana Yucca AI dapat membantu saya?
 
-  - intent: ask_about_faculties
-    examples: |
-      - Fakultas apa saja yang ada di Universitas Ciputra?
-      - Apa saja fakultas di sini?
-      - Fakultas yang ada apa saja?
+- intent: ask_about_capabilities
+  examples: |
+    - Kemampuan apa saja yang dimiliki Yucca AI?
+    - Bisakah Anda membantu saya dengan informasi universitas?
+    - Apa yang bisa Anda bantu tentang Universitas Ciputra?
 
-  - intent: ask_about_tuition
-    examples: |
-      - Berapa biaya kuliah di [Kedokteran](program_studi)?
-      - Apa biaya kuliah untuk [Informatika](program_studi)?
-      - Jelaskan biaya kuliah di jurusan [Desain Komunikasi Visual](program_studi).
-      - Berapa DPP untuk program studi [Manajemen Bisnis](program_studi)?
+- intent: ask_about_limitations
+  examples: |
+    - Apa batasan Yucca AI?
+    - Apa yang tidak bisa dilakukan oleh Yucca AI?
+    - Hal apa saja yang tidak bisa Yucca AI bantu?
 
-  - intent: ask_registration
-    examples: |
-      - Bagaimana cara mendaftar?
-      - Apa syarat pendaftaran?
-      - Jelaskan langkah pendaftaran.
-      - Apa jalur pendaftaran yang tersedia?
+- intent: ask_about_adaptability
+  examples: |
+    - Bagaimana Yucca AI menangani pertanyaan di luar cakupan?
+    - Apa yang dilakukan jika Anda tidak tahu jawabannya?
+    - Bisakah Anda mengarahkan saya ke sumber lain jika Anda tidak tahu?
 
-  - intent: ask_about_yucca
-    examples: |
-      - Siapa itu Yucca?
-      - Apa itu Yucca?
-      - Ceritakan tentang maskot Universitas Ciputra.
-      - Apa filosofi Yucca?
+- intent: ask_about_ethics
+  examples: |
+    - Bagaimana Yucca AI memastikan jawaban tidak bias?
+    - Apakah Yucca AI menggunakan etika dalam memberikan jawaban?
+    - Bagaimana Yucca AI menjaga sopan santun dalam jawabannya?
 
-  - intent: ask_about_life_on_campus
-    examples: |
-      - Apa saja fasilitas di Universitas Ciputra?
-      - Bagaimana kehidupan kampus di sini?
-      - Apakah ada kegiatan ekstrakurikuler?
-      - Apa program pertukaran pelajar yang tersedia?
+- intent: ask_about_yucca_character
+  examples: |
+    - Siapa itu Yucca?
+    - Bisakah Anda ceritakan tentang Yucca?
+    - Apa karakter Yucca?
 
-  - intent: ask_about_scholarship
-    examples: |
-      - Apakah Universitas Ciputra menawarkan beasiswa?
-      - Bagaimana cara mendaftar beasiswa?
-      - Apa syarat mendapatkan beasiswa?
-      - Beasiswa ini berlaku untuk program studi apa saja?
+- intent: ask_about_yucca_values
+  examples: |
+    - Apa nilai-nilai yang dilambangkan Yucca?
+    - Nilai apa saja yang dimiliki Yucca?
+    - Apa yang dilambangkan oleh Chap, Chip, dan Chup?
 
-  - intent: ask_academic_process
-    examples: |
-      - Apa itu sistem kredit semester?
-      - Berapa lama durasi studi untuk program sarjana?
-      - Bagaimana cara menghitung IPK?
-      - Jelaskan apa itu MBKM.
-      - Bagaimana cara mengubah KRS?
+- intent: ask_about_value_symbol
+  examples: |
+    - Apa lambang integritas?
+    - Siapa yang melambangkan integritas?
+    - Nilai integritas dilambangkan oleh siapa?
+    - Apa simbol profesionalisme?
+    - Siapa yang melambangkan kewirausahaan?
 
-  - intent: ask_graduation_and_career
-    examples: |
-      - Apa saja kualifikasi lulusan Universitas Ciputra?
-      - Apakah lulusan Universitas Ciputra mudah mendapatkan pekerjaan?
-      - Apa itu sertifikat profesi P1?
-      - Apakah ada program magang?
+- intent: ask_about_yucca_symbolism
+  examples: |
+    - Apa arti simbol Yucca?
+    - Mengapa Yucca terinspirasi dari tanaman?
+    - Apa makna tanaman Yucca?
 
-  - intent: ask_university_policy
-    examples: |
-      - Bagaimana kebijakan pengembalian biaya?
-      - Apa yang terjadi jika saya tidak hadir kuliah selama dua minggu?
-      - Bagaimana proses evaluasi hasil belajar mahasiswa?
-      - Apa saja peraturan akademik yang berlaku?
+- intent: ask_about_yucca_connection
+  examples: |
+    - Apa hubungan Yucca dengan Universitas Ciputra?
+    - Bagaimana Yucca melambangkan semangat UC?
+    - Apa akronim dari YUCCA?
 
-  - intent: ask_contact_information
-    examples: |
-      - Bagaimana cara menghubungi Universitas Ciputra?
-      - Apa nomor telepon Universitas Ciputra?
-      - Apakah Universitas Ciputra punya akun media sosial?
-      - Apa website resmi universitas ini?
+- intent: ask_about_mission
+  examples: |
+    - Apa misi Yucca?
+    - Apa tujuan Yucca AI?
+    - Jelaskan misi Yucca.
+    - Apa yang menjadi misi dari Yucca?
+
+- intent: ask_about_university_general
+  examples: |
+    - Apa yang bisa Anda ceritakan tentang Universitas Ciputra?
+    - Bisakah Anda memberikan informasi umum tentang Universitas Ciputra?
+    - Apa yang perlu saya ketahui tentang Universitas Ciputra?
+
+- intent: ask_about_university_address
+  examples: |
+    - Apa alamat Universitas Ciputra?
+    - Dimana lokasi Universitas Ciputra?
+    - Beritahu saya alamat Universitas Ciputra.
+
+- intent: ask_about_university_website
+  examples: |
+    - Apa website resmi Universitas Ciputra?
+    - Dimana saya bisa menemukan website Universitas Ciputra?
+    - Apa URL Universitas Ciputra?
+
+- intent: ask_about_university_phone
+  examples: |
+    - Apa nomor telepon Universitas Ciputra?
+    - Bagaimana cara menghubungi Universitas Ciputra melalui telepon?
+    - Bisa beri saya nomor telepon Universitas Ciputra?
+
+- intent: ask_about_university_contact
+  examples: |
+    - Bagaimana cara menghubungi Universitas Ciputra?
+    - Apa kontak Universitas Ciputra?
+    - Dimana saya bisa menghubungi Universitas Ciputra?
+    - Berikan saya informasi kontak Universitas Ciputra.
+    - Apakah ada nomor atau akun sosial media Universitas Ciputra?
+
+- intent: ask_about_specific_social_media
+  examples: |
+    - Apa Instagram Universitas Ciputra?
+    - Bagaimana cara menemukan Universitas Ciputra di [TikTok](platform)?
+    - Apa akun [Facebook](platform) Universitas Ciputra?
+    - Dimana saya bisa menemukan [YouTube](platform) Universitas Ciputra?
+    - Apakah Universitas Ciputra memiliki akun [Instagram](platform)?
+
+- intent: ask_about_all_faculties
+  examples: |
+    - Fakultas apa saja yang ada di Universitas Ciputra?
+    - Apa nama-nama fakultas di Universitas Ciputra?
+    - Beritahu saya daftar fakultas di Universitas Ciputra.
+
+- intent: ask_about_specific_faculty
+  examples: |
+    - Apa nama fakultas dengan kode [SBM](kode_fakultas)?
+    - Fakultas apa yang dikenal sebagai [School of Creative Industry](kode_fakultas)?
+    - Bisa jelaskan tentang fakultas dengan kode [SoT](kode_fakultas)?
+
+- intent: ask_about_all_programs
+  examples: |
+    - Apa saja program studi di Universitas Ciputra?
+    - Program studi apa saja yang tersedia?
+    - Bisakah Anda beri daftar program studi di Universitas Ciputra?
+    - Beritahu saya semua program studi.
+    - Ada program studi apa saja di UC?
+
+- intent: ask_about_specific_program
+  examples: |
+    - Apa saja persyaratan untuk program studi [MED-RC](kode_program_studi)?
+    - Berapa biaya kuliah untuk [IBM-IC](kode_program_studi)?
+    - Apa seleksi khusus untuk program [DEM](kode_program_studi)?
+    - Program studi [FTP](kode_program_studi) masuk fakultas mana?
+
+- intent: ask_about_specific_faculty_programs
+  examples: |
+    - Program studi apa saja di fakultas [SBM](kode_fakultas)?
+    - Fakultas [SCI](kode_fakultas) memiliki program studi apa?
+
+- intent: ask_about_program_requirements
+  examples: |
+    - Persyaratan apa saja untuk program [IMT-AI](kode_program_studi)?
+    - Apa syarat untuk masuk ke [ISB-DS](kode_program_studi)?
+
+- intent: ask_about_program_selection
+  examples: |
+    - Seleksi apa saja yang harus diikuti untuk [FDB](kode_program_studi)?
+    - Tes apa yang diadakan untuk program studi [ARS](kode_program_studi)?
+
+- intent: ask_about_program_fees
+  examples: |
+    - Berapa biaya total untuk program studi [PSY](kode_program_studi)?
+    - Detail biaya kuliah [VCD](kode_program_studi)?

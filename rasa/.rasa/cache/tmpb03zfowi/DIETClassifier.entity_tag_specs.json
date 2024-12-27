@@ -1,0 +1,36 @@
+[
+  {
+    "tag_name": "entity",
+    "ids_to_tags": {
+      "1": "B-kode_fakultas",
+      "2": "I-kode_fakultas",
+      "3": "L-kode_fakultas",
+      "4": "U-kode_fakultas",
+      "5": "B-kode_program_studi",
+      "6": "I-kode_program_studi",
+      "7": "L-kode_program_studi",
+      "8": "U-kode_program_studi",
+      "9": "B-platform",
+      "10": "I-platform",
+      "11": "L-platform",
+      "12": "U-platform",
+      "0": "O"
+    },
+    "tags_to_ids": {
+      "B-kode_fakultas": 1,
+      "I-kode_fakultas": 2,
+      "L-kode_fakultas": 3,
+      "U-kode_fakultas": 4,
+      "B-kode_program_studi": 5,
+      "I-kode_program_studi": 6,
+      "L-kode_program_studi": 7,
+      "U-kode_program_studi": 8,
+      "B-platform": 9,
+      "I-platform": 10,
+      "L-platform": 11,
+      "U-platform": 12,
+      "O": 0
+    },
+    "num_tags": 13
+  }
+]

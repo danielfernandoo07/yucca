@@ -1,61 +1,134 @@
 version: "3.1"
 
 rules:
-  - rule: Respond to ask_about_university
-    steps:
-      - intent: ask_about_university
-      - action: action_fetch_knowledge_base
+- rule: Respond to ask about role
+  steps:
+  - intent: ask_about_role
+  - action: utter_about_role
 
-  - rule: Respond to ask_about_faculties
-    steps:
-      - intent: ask_about_faculties
-      - action: action_fetch_knowledge_base
+- rule: Respond to ask about capabilities
+  steps:
+  - intent: ask_about_capabilities
+  - action: utter_about_capabilities
 
-  - rule: Respond to ask_about_tuition
-    steps:
-      - intent: ask_about_tuition
-      - action: action_fetch_knowledge_base
+- rule: Respond to ask about limitations
+  steps:
+  - intent: ask_about_limitations
+  - action: utter_about_limitations
 
-  - rule: Respond to ask_registration
-    steps:
-      - intent: ask_registration
-      - action: action_fetch_knowledge_base
+- rule: Respond to ask about adaptability
+  steps:
+  - intent: ask_about_adaptability
+  - action: utter_about_adaptability
 
-  - rule: Respond to ask_about_scholarship
-    steps:
-      - intent: ask_about_scholarship
-      - action: action_fetch_knowledge_base
+- rule: Respond to ask about ethics
+  steps:
+  - intent: ask_about_ethics
+  - action: utter_about_ethics
 
-  - rule: Respond to ask_about_yucca
-    steps:
-      - intent: ask_about_yucca
-      - action: action_fetch_knowledge_base
+- rule: Respond to out of scope
+  steps:
+  - intent: out_of_scope
+  - action: utter_out_of_scope
 
-  - rule: Respond to ask_about_life_on_campus
-    steps:
-      - intent: ask_about_life_on_campus
-      - action: action_fetch_knowledge_base
+- rule: Respond to ask about Yucca's character
+  steps:
+  - intent: ask_about_yucca_character
+  - action: utter_about_yucca_character
 
-  - rule: Respond to ask_contact_information
-    steps:
-      - intent: ask_contact_information
-      - action: action_fetch_knowledge_base
+- rule: Respond to ask about Yucca's values
+  steps:
+  - intent: ask_about_yucca_values
+  - action: utter_about_yucca_values
 
-  - rule: Respond to ask_about_academic_process
-    steps:
-      - intent: ask_about_academic_process
-      - action: action_fetch_knowledge_base
+- rule: Respond to ask about Yucca's symbolism
+  steps:
+  - intent: ask_about_yucca_symbolism
+  - action: utter_about_yucca_symbolism
 
-  - rule: Respond to ask_about_graduation_and_career
-    steps:
-      - intent: ask_about_graduation_and_career
-      - action: action_fetch_knowledge_base
+- rule: Respond to ask about value symbol
+  steps:
+  - intent: ask_about_value_symbol
+  - action: action_fetch_value_lambang
 
-  - rule: Respond to ask_about_university_policy
-    steps:
-      - intent: ask_about_university_policy
-      - action: action_fetch_knowledge_base
+- rule: Respond to ask about Yucca's connection
+  steps:
+  - intent: ask_about_yucca_connection
+  - action: utter_about_yucca_connection
 
-  - rule: Default fallback
-    steps:
-      - action: action_default_fallback
+- rule: Respond to ask about mission
+  steps:
+  - intent: ask_about_mission
+  - action: action_fetch_mission
+
+- rule: Respond to ask about university general
+  steps:
+  - intent: ask_about_university_general
+  - action: utter_about_university_general
+
+- rule: Respond to ask about university address
+  steps:
+  - intent: ask_about_university_address
+  - action: utter_about_university_address
+
+- rule: Respond to ask about university website
+  steps:
+  - intent: ask_about_university_website
+  - action: utter_about_university_website
+
+- rule: Respond to ask about university phone
+  steps:
+  - intent: ask_about_university_phone
+  - action: utter_about_university_phone
+
+- rule: Respond to ask about university contact
+  steps:
+  - intent: ask_about_university_contact
+  - action: utter_about_university_contact
+
+- rule: Respond to specific social media query
+  steps:
+  - intent: ask_about_specific_social_media
+  - action: action_provide_social_media
+
+- rule: Respond to all faculties
+  steps:
+  - intent: ask_about_all_faculties
+  - action: action_provide_faculty_details
+
+- rule: Respond to specific faculty
+  steps:
+  - intent: ask_about_specific_faculty
+  - slot_was_set:
+    - kode_fakultas
+  - action: action_provide_faculty_details
+
+- rule: Respond to all programs query
+  steps:
+  - intent: ask_about_all_programs
+  - action: action_provide_all_programs
+
+- rule: Respond to specific program query
+  steps:
+  - intent: ask_about_specific_program
+  - action: action_provide_program_details
+
+- rule: Respond to faculty programs query
+  steps:
+  - intent: ask_about_specific_faculty_programs
+  - action: action_provide_faculty_programs
+
+- rule: Respond to program requirements query
+  steps:
+  - intent: ask_about_program_requirements
+  - action: action_provide_program_requirements
+
+- rule: Respond to program selection query
+  steps:
+  - intent: ask_about_program_selection
+  - action: action_provide_program_selection
+
+- rule: Respond to program fees query
+  steps:
+  - intent: ask_about_program_fees
+  - action: action_provide_program_fees

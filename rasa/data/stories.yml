@@ -1,57 +1,146 @@
 version: "3.1"
 
 stories:
-  - story: User asks about university
-    steps:
-      - intent: ask_about_university
-      - action: action_fetch_knowledge_base
+- story: User asks about role
+  steps:
+  - intent: ask_about_role
+  - action: utter_about_role
 
-  - story: User asks about faculties
-    steps:
-      - intent: ask_about_faculties
-      - action: action_fetch_knowledge_base
+- story: User asks about capabilities
+  steps:
+  - intent: ask_about_capabilities
+  - action: utter_about_capabilities
 
-  - story: User asks about tuition
-    steps:
-      - intent: ask_about_tuition
-      - action: action_fetch_knowledge_base
+- story: User asks about limitations
+  steps:
+  - intent: ask_about_limitations
+  - action: utter_about_limitations
 
-  - story: User asks about registration
-    steps:
-      - intent: ask_registration
-      - action: action_fetch_knowledge_base
+- story: User asks about adaptability
+  steps:
+  - intent: ask_about_adaptability
+  - action: utter_about_adaptability
 
-  - story: User asks about scholarship
-    steps:
-      - intent: ask_about_scholarship
-      - action: action_fetch_knowledge_base
+- story: User asks about ethics
+  steps:
+  - intent: ask_about_ethics
+  - action: utter_about_ethics
 
-  - story: User asks about Yucca
-    steps:
-      - intent: ask_about_yucca
-      - action: action_fetch_knowledge_base
+- story: User asks out of scope
+  steps:
+  - intent: out_of_scope
+  - action: utter_out_of_scope
 
-  - story: User asks about campus life
-    steps:
-      - intent: ask_about_life_on_campus
-      - action: action_fetch_knowledge_base
+- story: User asks about Yucca's character
+  steps:
+  - intent: ask_about_yucca_character
+  - action: utter_about_yucca_character
 
-  - story: User asks for contact information
-    steps:
-      - intent: ask_contact_information
-      - action: action_fetch_knowledge_base
+- story: User asks about Yucca's values
+  steps:
+  - intent: ask_about_yucca_values
+  - action: utter_about_yucca_values
 
-  - story: User asks about academic process
-    steps:
-      - intent: ask_about_academic_process
-      - action: action_fetch_knowledge_base
+- story: User asks about Yucca's symbolism
+  steps:
+  - intent: ask_about_yucca_symbolism
+  - action: utter_about_yucca_symbolism
 
-  - story: User asks about graduation and career
-    steps:
-      - intent: ask_about_graduation_and_career
-      - action: action_fetch_knowledge_base
+- story: User asks about value symbol
+  steps:
+  - intent: ask_about_value_symbol
+    entities:
+    - value: "integritas"
+  - action: action_fetch_value_lambang
 
-  - story: User asks about university policy
-    steps:
-      - intent: ask_about_university_policy
-      - action: action_fetch_knowledge_base
+- story: User asks about Yucca's connection to UC
+  steps:
+  - intent: ask_about_yucca_connection
+  - action: utter_about_yucca_connection
+
+- story: User asks about mission
+  steps:
+  - intent: ask_about_mission
+  - action: action_fetch_mission
+
+- story: User asks about university general
+  steps:
+  - intent: ask_about_university_general
+  - action: utter_about_university_general
+
+- story: User asks about university address
+  steps:
+  - intent: ask_about_university_address
+  - action: utter_about_university_address
+
+- story: User asks about university website
+  steps:
+  - intent: ask_about_university_website
+  - action: utter_about_university_website
+
+- story: User asks about university phone
+  steps:
+  - intent: ask_about_university_phone
+  - action: utter_about_university_phone
+
+- story: User asks about university contact
+  steps:
+  - intent: ask_about_university_contact
+  - action: utter_about_university_contact
+
+- story: User asks about specific social media
+  steps:
+  - intent: ask_about_specific_social_media
+  - action: action_provide_social_media
+
+- story: User asks about all faculties
+  steps:
+  - intent: ask_about_all_faculties
+  - action: action_provide_faculty_details
+
+- story: User asks about specific faculty
+  steps:
+  - intent: ask_about_specific_faculty
+    entities:
+    - kode_fakultas
+  - action: action_provide_faculty_details
+
+- story: User asks about all programs
+  steps:
+  - intent: ask_about_all_programs
+  - action: action_provide_all_programs
+
+- story: User asks about specific program
+  steps:
+  - intent: ask_about_specific_program
+    entities:
+    - kode_program_studi
+  - action: action_provide_program_details
+
+- story: User asks about faculty programs
+  steps:
+  - intent: ask_about_specific_faculty_programs
+    entities:
+    - kode_fakultas
+  - action: action_provide_faculty_programs
+
+- story: User asks about program requirements
+  steps:
+  - intent: ask_about_program_requirements
+    entities:
+    - kode_program_studi
+  - action: action_provide_program_requirements
+
+- story: User asks about program selection
+  steps:
+  - intent: ask_about_program_selection
+    entities:
+    - kode_program_studi
+  - action: action_provide_program_selection
+
+- story: User asks about program fees
+  steps:
+  - intent: ask_about_program_fees
+    entities:
+    - kode_program_studi
+  - action: action_provide_program_fees
